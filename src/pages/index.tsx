@@ -35,7 +35,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="Home"
-      description="Description will go into a meta tag in <head />">
+      description="Discover JaKtA, a Kotlin-based agent programming framework">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
