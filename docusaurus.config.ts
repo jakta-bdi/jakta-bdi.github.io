@@ -35,6 +35,26 @@ const config: Config = {
     locales: ['en'],
   },
 
+  plugins: [
+    function yamlLoader(context, options) {
+      return {
+        name: "yaml-loader",
+        configureWebpack(config, isServer) {
+          return {
+            module: {
+              rules: [
+                {
+                  test: /\.ya?ml$/,
+                  use: "yaml-loader",
+                },
+              ],
+            },
+          };
+        },
+      };
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -104,6 +124,11 @@ const config: Config = {
           position: 'left'
         },
         {
+          to: '/team',
+          label: 'Team', 
+          position: 'left'
+        },
+        {
           type: 'search',
           position: 'right',
         },
@@ -166,9 +191,9 @@ const config: Config = {
       defaultLanguage: 'kotlin',
     },
     algolia: {
-      appId: 'YOUR_APP_ID',
-      apiKey: 'YOUR_SEARCH_API_KEY',
-      indexName: 'YOUR_INDEX_NAME',
+      appId: 'VYWAYTYENC',
+      apiKey: 'e71e39c23b9e037ad639a9295d3dad4c',
+      indexName: 'jakta-bdiio',
 
       contextualSearch: true,
 

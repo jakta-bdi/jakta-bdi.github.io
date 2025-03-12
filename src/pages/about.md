@@ -1,3 +1,7 @@
+---
+hide_table_of_contents: true
+---
+
 # About JaKtA
 
 JaKtA is a framework for developing Belief-Desire-Intention (BDI) agents using the Kotlin programming language.

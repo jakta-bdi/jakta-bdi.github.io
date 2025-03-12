@@ -1,25 +1,24 @@
-samubura:
-  name: Samuele Burattini
-  title: Project Contributor
-  url: https://github.com/samubura
-  image_url: https://github.com/samubura.png
-  page: true
-  socials:
-    github: samubura
-
 anitvam:
   name: Martina Baiardi
-  title: Project Maintainer
+  title: Maintainer
   url: https://github.com/anitvam
   image_url: https://github.com/anitvam.png
   page: true
   socials:
     github: anitvam
 
+samubura:
+  name: Samuele Burattini
+  title: Contributor
+  url: https://github.com/samubura
+  image_url: https://github.com/samubura.png
+  page: true
+  socials:
+    github: samubura
 
 danysk:
   name: Danilo Pianini
-  title: Project Maintainer
+  title: Contributor
   url: https://github.com/danysk
   image_url: https://github.com/danysk.png
   page: true
