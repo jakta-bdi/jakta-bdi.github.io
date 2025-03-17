@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Hello World
 
 This is a `Hello World` agent written with JaKtA syntax, printing the string "Hello, World!" to the console. 

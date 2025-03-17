@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Quickstart
 
 ## Extremely-Quick-Start -- `(ba|z|fi)?sh` users only
