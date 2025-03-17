@@ -114,11 +114,6 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          to: '/blog',
-          label: 'Blog', 
-          position: 'left'
-        },
-        {
           to: '/about',
           label: 'About', 
           position: 'left'
@@ -126,6 +121,11 @@ const config: Config = {
         {
           to: '/team',
           label: 'Team', 
+          position: 'left'
+        },
+        {
+          to: '/blog',
+          label: 'Blog', 
           position: 'left'
         },
         {

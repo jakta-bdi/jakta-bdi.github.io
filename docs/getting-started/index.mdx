@@ -1,0 +1,81 @@
+---
+sidebar_position: 2
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+# Getting Started 
+
+The best way to use JaKtA is in a Kotlin project, it is the only way you can benefit from its declarative DSL.
+
+### Setup JaKtA
+
+To get started with JaKtA simply create a new project and copy this in your `build.gradle.kts` file:
+
+```
+dependencies {
+    implementation("it.unibo.jakta:jakta-dsl:latest")
+}
+```
+
+<details>
+<summary> 
+Gradle will import JaKtA as a dependency from **Maven Central**, make sure your gradle configuration is properly setup.
+</summary>
+
+To setup Maven Central copy this in your `build.gralde.kts` file:
+```
+repositories {
+    mavenCentral()
+}
+```
+
+</details>
+
+### Create a Multi-Agent System 
+
+Create a file and start writing your JaKtA agents within the `main` function:
+```
+fun main() {
+    mas {
+     // your MAS definition goes in here
+    }.start()
+}
+```
+
+:::warning[Don't Forget]
+Don't forget to put `.start()` at the end! This instruction actually triggers the execution of the `mas` you define. 
+:::
+
+### Run your Multi-Agent System
+
+//TODO
+
+<!-- Run your project
+<Tabs>
+<TabItem value='Linux' default>
+```
+./gradlew run
+```
+</TabItem>
+<TabItem value='Windows'>
+```
+gradlew.bat run
+```
+</TabItem>
+
+</Tabs> -->
+
+<!-- ## Using JaKtA in a Java project
+
+//TODO -->
+
+
+## Start your JaKtA journey
+
+You're all set, you can now explore more about JaKtA and learn how to build multi-agent systems! 
+
+Either continue with a [Hello World](./hello-world.md) example,
+or discover more about the main [Basic Concepts](../basic-concepts/index.md) that you will need to implemente BDI agents in JaKtA.
