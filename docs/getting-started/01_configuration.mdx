@@ -1,0 +1,52 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Configuration
+
+The best way to use JaKtA is in a `Kotlin` project, so that you can benefit its declarative DSL.
+
+## Prerequisites
+
+You need:
+* A terminal, bash compatible preferred
+* [Java 11+](https://adoptium.net/) installed and working
+    - Java can be downloaded from [https://adoptium.net/](https://adoptium.net/)
+* [Git](https://git-scm.com) installed and working
+    - Git can be downloaded from https://git-scm.com
+
+## Distribution 
+
+JaKtA is distributed on Maven Central.
+You can find the project in this [link](https://central.sonatype.com/namespace/it.unibo.jakta).
+
+## Setup JaKtA
+
+To get started with JaKtA, simply create a new `gradle` project and import the following Maven Central dependency in your `build.gradle.kts` file:
+
+```
+dependencies {
+    implementation("it.unibo.jakta:jakta:<latest.release>")
+}
+```
+
+:::tip[Versioning]
+It is always preferrable to select a fixed version for your dependencies. Check JaKtA's latest available version [here](https://central.sonatype.com/artifact/it.unibo.jakta/jakta).
+:::
+
+:::tip[Gradle]
+If you're not familiar with Gradle you can learn it from [here](https://docs.gradle.org/current/userguide/getting_started_eng.html).
+:::
+
+<details>
+
+    <summary> 
+    Gradle will import JaKtA as a dependency from **Maven Central**, make sure your repository configuration is including it.
+    </summary>
+
+    To setup Maven Central copy this in your `build.gralde.kts` file:
+    ```
+    repositories {
+        mavenCentral()
+    }
+    ```
+</details>

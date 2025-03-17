@@ -1,10 +1,6 @@
----
-sidebar_position: 1
----
-
 # Hello World
 
-This is a `Hello World` agent, printing the string "Hello, World!" to the console. 
+This is a `Hello World` agent written with JaKtA syntax, printing the string "Hello, World!" to the console. 
 
 ```kt showLineNumbers
 fun main() {
@@ -22,3 +18,5 @@ fun main() {
     }.start()
 }
 ```
+
+If the agent's elements are unfamiliar for you, continue the read with [Basic Concepts](../basic-concepts/index.md).
