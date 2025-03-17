@@ -16,22 +16,26 @@ To get started with JaKtA simply create a new project and copy this in your `bui
 
 ```
 dependencies {
-    implementation("it.unibo.jakta:jakta-dsl:latest")
+    implementation("it.unibo.jakta:jakta:latest.release")
 }
 ```
+
+:::tip[Versioning]
+It is always preferrable to select a fixed version for your dependencies. Check JaKtA's latest available version [here](https://central.sonatype.com/artifact/it.unibo.jakta/jakta)
+:::
 
 <details>
-<summary> 
-Gradle will import JaKtA as a dependency from **Maven Central**, make sure your gradle configuration is properly setup.
-</summary>
 
-To setup Maven Central copy this in your `build.gralde.kts` file:
-```
-repositories {
-    mavenCentral()
-}
-```
+    <summary> 
+    Gradle will import JaKtA as a dependency from **Maven Central**, make sure your repository configuration is including it.
+    </summary>
 
+    To setup Maven Central copy this in your `build.gralde.kts` file:
+    ```
+    repositories {
+        mavenCentral()
+    }
+    ```
 </details>
 
 ### Create a Multi-Agent System 
