@@ -19,4 +19,4 @@ fun main() {
 }
 ```
 
-If the agent's elements are unfamiliar for you, continue the read with [Basic Concepts](../basic-concepts/index.md).
+If the agent's elements are unfamiliar for you, continue the read with `Basic Concepts`.
