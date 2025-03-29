@@ -23,15 +23,25 @@ You need:
 JaKtA is distributed on Maven Central.
 You can find the project at this [link](https://central.sonatype.com/namespace/it.unibo.jakta).
 
-## Setup JaKtA
+## Setup your JaKtA project
 
-To get started with JaKtA, simply create a new `gradle` project and import the following Maven Central dependency in your `build.gradle.kts` file:
+To get started with JaKtA, create a new `gradle` project 
+and import the following Maven Central dependency in your `build.gradle.kts` file:
 
+1. Create a new Kotlin project using Gradle:
+```bash
+mkdir jakta-project
+cd jakta-project
+gradle init --type kotlin-application
 ```
+2. Add JaKtA dependency in `build.gradle.kts`:
+```bash
 dependencies {
-    implementation("it.unibo.jakta:jakta:<latest.release>")
+    implementation("it.unibo.jakta:jakta-dsl:<latest.release>")
 }
 ```
+
+Or, alternatively, use the [JaKta template](https://github.com/jakta-bdi/template-for-JaKtA-project).
 
 :::tip[Versioning]
 It is always preferrable to select a fixed version for your dependencies. Check out JaKtA's latest available version [here](https://central.sonatype.com/artifact/it.unibo.jakta/jakta).
@@ -54,3 +64,4 @@ If you're not familiar with Gradle you can learn it from [here](https://docs.gra
     }
     ```
 </details>
+
