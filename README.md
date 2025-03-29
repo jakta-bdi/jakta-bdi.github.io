@@ -1,5 +1,5 @@
 # Get started with JaKtA
-The website for the documentation of JaKtA, coming soon...
+The website for the documentation of JaKtA, still a work in progress. Contact us if you encounter issues!
 
 In the meantime, you can check the papers describing JaKtA:
 
