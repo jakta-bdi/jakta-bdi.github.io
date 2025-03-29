@@ -49,4 +49,4 @@ You should see the following output:
 [myAgent] Hello, World!
 ```
 
-For more advanced examples, check out [JaKtA Examples](https://github.com/jakta-bdi/jakta-examples).
+For more examples, check out [JaKtA Examples](https://github.com/jakta-bdi/jakta-examples).
