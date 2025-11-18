@@ -20,8 +20,8 @@
 }
 
 .citeCard {
-	width:40%;
-	min-width: 300px;
+	width: 90%;
+	max-width: 1000px;
 	background: var(--ifm-card-background-color);
 	color: var(--ifm-font-color-base);
 	border-radius: 1.5rem;
