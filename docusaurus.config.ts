@@ -53,6 +53,23 @@ const config: Config = {
         },
       };
     },
+    function bibtexLoader(context, options) {
+    return {
+      name: "bibtex-loader",
+      configureWebpack(config, isServer) {
+        return {
+          module: {
+            rules: [
+              {
+                test: /\.bib$/,
+                use: "raw-loader",
+              },
+            ],
+          },
+        };
+      },
+    };
+  },
   ],
 
   presets: [
@@ -90,14 +107,14 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
-    announcementBar: {
-      id: 'underconstruction',
-      content:
-        'This website is currently under construction. Please check back later for updates.',
-      backgroundColor: '#FFFF8F',
-      textColor: 'black',
-      isCloseable: false,
-    },
+    // announcementBar: {
+    //   id: 'underconstruction',
+    //   content:
+    //     'This website is currently under construction. Please check back later for updates.',
+    //   backgroundColor: '#FFFF8F',
+    //   textColor: 'black',
+    //   isCloseable: false,
+    // },
     navbar: {
       hideOnScroll: false,
       title: 'JaKtA',
@@ -114,13 +131,8 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          to: '/about',
-          label: 'About', 
-          position: 'left'
-        },
-        {
-          to: '/team',
-          label: 'Team', 
+          to: '/publications',
+          label: 'Publications', 
           position: 'left'
         },
         {
@@ -147,28 +159,28 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Introduction',
               to: '/docs/intro',
+            },
+            {
+              label: 'Getting Started',
+              to: '/docs/getting-started',
             },
           ],
         },
-        // {
-        //   title: 'Community',
-        //   items: [
-        //     {
-        //       label: 'Stack Overflow',
-        //       href: 'https://stackoverflow.com/questions/tagged/jakta',
-        //     },
-        //     {
-        //       label: 'Discord',
-        //       href: 'https://discordapp.com/invite/docusaurus',
-        //     },
-        //     {
-        //       label: 'X',
-        //       href: 'https://x.com/docusaurus',
-        //     },
-        //   ],
-        // },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'GitHub',
+              href: githubURL,
+            },
+            {
+              label: 'Q&A Forum',
+              href: 'https://github.com/orgs/jakta-bdi/discussions',
+            },
+          ],
+        },
         {
           title: 'More',
           items: [
@@ -177,8 +189,8 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: githubURL,
+              label: 'Pervasive Software Lab',
+              to: 'https://pslab-unibo.github.io/',
             },
           ],
         },
@@ -187,7 +199,7 @@ const config: Config = {
     },
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      darkTheme: prismThemes.vsDark,
       defaultLanguage: 'kotlin',
     },
     algolia: {

@@ -1,45 +1,29 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+
+
+import React from 'react';
+import AttributionBox from '../components/AttributionBox/AttributionBox';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
-import { Icon } from '@iconify/react'; // Import the entire Iconify library.
+import Hero from '../components/Hero/Hero';
+import FeaturesSection from '../components/FeaturesSection/FeaturesSection';
+import TeamSection from '../components/TeamSection/TeamSection';
+import AboutSection from '../components/AboutSection/AboutSection';
+import HomePageNavbar from '../components/HomePageNavbar/HomePageNavbar';
+import CallToAction from '../components/CallToAction/CallToAction';
 
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/getting-started/configuration">
-              Get Started
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
-export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
+export default function Home() {
   return (
     <Layout
       title="Home"
       description="Discover JaKtA, a Kotlin-based agent programming framework">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      <HomePageNavbar />
+      <Hero />
+      <main> 
+        <FeaturesSection />
+        <TeamSection  />
+        <AboutSection />
+          <CallToAction />
       </main>
+      <AttributionBox />
     </Layout>
   );
 }
