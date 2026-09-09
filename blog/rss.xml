@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>JaKtA Blog</title>
+        <link>https://jakta-bdi.github.io/blog</link>
+        <description>JaKtA Blog</description>
+        <lastBuildDate>Tue, 11 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[JaKtA is online!]]></title>
+            <link>https://jakta-bdi.github.io/blog/first-blog-post</link>
+            <guid>https://jakta-bdi.github.io/blog/first-blog-post</guid>
+            <pubDate>Tue, 11 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are excited to announce that the new JaKtA website is now live!]]></description>
+            <content:encoded><![CDATA[<p>We are excited to announce that the new JaKtA website is now live!</p>
+<p>Built with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>, our new site offers a sleek and modern design, improved navigation, and a wealth of resources for the JaKtA community.</p>
+<p>Explore our documentation, join the <a href="https://github.com/orgs/jakta-bdi/discussions" target="_blank" rel="noopener noreferrer">community discussions</a>, and stay updated with the latest news and updates. We hope you enjoy the new experience and find it helpful in your journey with JaKtA.</p>
+<p>Check it out now and let us know what you think!</p>]]></content:encoded>
+            <category>JaKtA</category>
+            <category>Community</category>
+        </item>
+    </channel>
+</rss>

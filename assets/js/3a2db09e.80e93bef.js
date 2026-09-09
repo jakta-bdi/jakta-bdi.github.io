@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjakta=self.webpackChunkjakta||[]).push([[8121],{8070:a=>{a.exports=JSON.parse('{"tags":[{"label":"JaKtA","permalink":"/blog/tags/jakta","description":"General news about JaKtA","count":1},{"label":"Community","permalink":"/blog/tags/community","description":"News about the JaKtA community","count":1}]}')}}]);

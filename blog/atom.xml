@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://jakta-bdi.github.io/blog</id>
+    <title>JaKtA Blog</title>
+    <updated>2025-03-11T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://jakta-bdi.github.io/blog"/>
+    <subtitle>JaKtA Blog</subtitle>
+    <icon>https://jakta-bdi.github.io/img/favicon/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[JaKtA is online!]]></title>
+        <id>https://jakta-bdi.github.io/blog/first-blog-post</id>
+        <link href="https://jakta-bdi.github.io/blog/first-blog-post"/>
+        <updated>2025-03-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are excited to announce that the new JaKtA website is now live!]]></summary>
+        <content type="html"><![CDATA[<p>We are excited to announce that the new JaKtA website is now live!</p>
+<p>Built with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>, our new site offers a sleek and modern design, improved navigation, and a wealth of resources for the JaKtA community.</p>
+<p>Explore our documentation, join the <a href="https://github.com/orgs/jakta-bdi/discussions" target="_blank" rel="noopener noreferrer">community discussions</a>, and stay updated with the latest news and updates. We hope you enjoy the new experience and find it helpful in your journey with JaKtA.</p>
+<p>Check it out now and let us know what you think!</p>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Community" term="Community"/>
+    </entry>
+</feed>
