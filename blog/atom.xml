@@ -14,8 +14,8 @@
         <updated>2025-03-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We are excited to announce that the new JaKtA website is now live!]]></summary>
         <content type="html"><![CDATA[<p>We are excited to announce that the new JaKtA website is now live!</p>
-<p>Built with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>, our new site offers a sleek and modern design, improved navigation, and a wealth of resources for the JaKtA community.</p>
-<p>Explore our documentation, join the <a href="https://github.com/orgs/jakta-bdi/discussions" target="_blank" rel="noopener noreferrer">community discussions</a>, and stay updated with the latest news and updates. We hope you enjoy the new experience and find it helpful in your journey with JaKtA.</p>
+<p>Built with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer" class="">Docusaurus</a>, our new site offers a sleek and modern design, improved navigation, and a wealth of resources for the JaKtA community.</p>
+<p>Explore our documentation, join the <a href="https://github.com/orgs/jakta-bdi/discussions" target="_blank" rel="noopener noreferrer" class="">community discussions</a>, and stay updated with the latest news and updates. We hope you enjoy the new experience and find it helpful in your journey with JaKtA.</p>
 <p>Check it out now and let us know what you think!</p>]]></content>
         <author>
             <name>Samuele Burattini</name>
@@ -33,8 +33,8 @@
         <content type="html"><![CDATA[<p>A new paper related to JaKtA has been published at IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2024 - Companion, Aarhus, Denmark, September 16-20, 2024 (2024).</p>
 <p><strong>Authors</strong>: Martina Baiardi
 <strong>Venue</strong>: IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2024 - Companion, Aarhus, Denmark, September 16-20, 2024 (2024)
-<strong>Link</strong>: <a href="https://doi.org/10.1109/ACSOS-C63493.2024.00047" target="_blank" rel="noopener noreferrer">https://doi.org/10.1109/ACSOS-C63493.2024.00047</a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="abstract">Abstract<a href="https://jakta-bdi.github.io/blog/paper-dblp-conf-acsos-baiardi24#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract">​</a></h3>
+<strong>Link</strong>: <a href="https://doi.org/10.1109/ACSOS-C63493.2024.00047" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1109/ACSOS-C63493.2024.00047</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="abstract">Abstract<a href="https://jakta-bdi.github.io/blog/paper-dblp-conf-acsos-baiardi24#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract" translate="no">​</a></h3>
 <p>In this abstract, we briefly discuss the relationship between Agent-Oriented software engineering, with special attention to the Belief-Desire-Intention paradigm, and the world of autonomic computing. Although these two worlds seem on paper to be complementary, in the sense that BDI sounds like a highly effective paradigm to implement autonomic systems, in practice, they are not widespread as technological choices in the community. We argue that the reason is mostly related to the current state of the tooling rather than the paradigm, and we propose a novel approach to build tools for BDI agent-oriented programming that could ease adoption in the autonomic and self-organising systems community.</p>]]></content>
         <author>
             <name>Martina Baiardi</name>
@@ -52,8 +52,8 @@
         <content type="html"><![CDATA[<p>A new paper related to JaKtA has been published at Engineering Multi-Agent Systems - 12th International Workshop, EMAS 2024, Auckland, New Zealand, May 6-7, 2024, Revised Selected Papers (2024).</p>
 <p><strong>Authors</strong>: Martina Baiardi, Samuele Burattini, Giovanni Ciatto, Danilo Pianini, Alessandro Ricci, Andrea Omicini
 <strong>Venue</strong>: Engineering Multi-Agent Systems - 12th International Workshop, EMAS 2024, Auckland, New Zealand, May 6-7, 2024, Revised Selected Papers (2024)
-<strong>Link</strong>: <a href="https://doi.org/10.1007/978-3-031-71152-7_3" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/978-3-031-71152-7_3</a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="abstract">Abstract<a href="https://jakta-bdi.github.io/blog/paper-dblp-conf-emas-baiardibcpro24#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract">​</a></h3>
+<strong>Link</strong>: <a href="https://doi.org/10.1007/978-3-031-71152-7_3" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1007/978-3-031-71152-7_3</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="abstract">Abstract<a href="https://jakta-bdi.github.io/blog/paper-dblp-conf-emas-baiardibcpro24#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract" translate="no">​</a></h3>
 <p>The execution of Belief-Desire-Intention (BDI) agents in a Multi-Agent System (MAS) can be practically implemented on top of low-level concurrency mechanisms that impact on efficiency, determinism, and reproducibility. We argue that developers should specify the MAS behaviour independently of the execution model, and choose or configure the concurrency model later on, according to the specific needs of their target domain, leaving the MAS specification unaffected. We identify patterns for mapping the agent execution over the underlying concurrency abstractions, and investigate which concurrency models are supported by some of the most commonly used BDI platforms. Although most frameworks support multiple concurrency models, we find that they mostly hide them under the hood, making them opaque to the developer, and actually limiting the possibility of fine-tuning the MAS.</p>]]></content>
         <author>
             <name>Martina Baiardi</name>
@@ -83,7 +83,7 @@
         <content type="html"><![CDATA[<p>A new paper related to JaKtA has been published at Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023).</p>
 <p><strong>Authors</strong>: Martina Baiardi
 <strong>Venue</strong>: Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023)
-<strong>Link</strong>: <a href="https://doi.org/10.1007/978-3-031-43264-4_31" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/978-3-031-43264-4_31</a></p>]]></content>
+<strong>Link</strong>: <a href="https://doi.org/10.1007/978-3-031-43264-4_31" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1007/978-3-031-43264-4_31</a></p>]]></content>
         <author>
             <name>Martina Baiardi</name>
             <uri>https://github.com/anitvam</uri>
@@ -100,7 +100,7 @@
         <content type="html"><![CDATA[<p>A new paper related to JaKtA has been published at Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023).</p>
 <p><strong>Authors</strong>: Martina Baiardi, Samuele Burattini, Giovanni Ciatto, Danilo Pianini
 <strong>Venue</strong>: Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023)
-<strong>Link</strong>: <a href="https://doi.org/10.1007/978-3-031-43264-4_4" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/978-3-031-43264-4_4</a></p>]]></content>
+<strong>Link</strong>: <a href="https://doi.org/10.1007/978-3-031-43264-4_4" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1007/978-3-031-43264-4_4</a></p>]]></content>
         <author>
             <name>Martina Baiardi</name>
             <uri>https://github.com/anitvam</uri>

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjakta=self.webpackChunkjakta||[]).push([[8158],{8158:(a,e,k)=>{k.r(e),k.d(e,{DocSearchModal:()=>c.a1});var c=k(5600)}}]);
