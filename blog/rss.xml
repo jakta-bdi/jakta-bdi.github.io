@@ -4,10 +4,30 @@
         <title>JaKtA Blog</title>
         <link>https://jakta-bdi.github.io/blog</link>
         <description>JaKtA Blog</description>
-        <lastBuildDate>Tue, 11 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Sep 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[JaKtA 1.1.1 released]]></title>
+            <link>https://jakta-bdi.github.io/blog/release-1.1.1</link>
+            <guid>https://jakta-bdi.github.io/blog/release-1.1.1</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[JaKtA 1.1.1 is out.]]></description>
+            <content:encoded><![CDATA[<p>JaKtA 1.1.1 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.1#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update dependency typescript to ~5.7.0 (<a href="https://github.com/jakta-bdi/jakta/issues/915" target="_blank" rel="noopener noreferrer" class="">#915</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/95a644284c2c7dfa2536ac6e8806a707f6250f88" target="_blank" rel="noopener noreferrer" class="">95a6442</a>)</li>
+<li class=""><strong>deps:</strong> update docusaurus monorepo to v3.9.2 (<a href="https://github.com/jakta-bdi/jakta/issues/920" target="_blank" rel="noopener noreferrer" class="">#920</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/d27d697cb82c78e875fe5cce1c03d68a46596e4b" target="_blank" rel="noopener noreferrer" class="">d27d697</a>)</li>
+<li class=""><strong>deps:</strong> update react monorepo to v19.0.8 (<a href="https://github.com/jakta-bdi/jakta/issues/913" target="_blank" rel="noopener noreferrer" class="">#913</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/80459dc782a6bd3a6635f107e461cf844b0d692d" target="_blank" rel="noopener noreferrer" class="">80459dc</a>)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-maintenance">General maintenance<a href="https://jakta-bdi.github.io/blog/release-1.1.1#general-maintenance" class="hash-link" aria-label="Direct link to General maintenance" title="Direct link to General maintenance" translate="no">​</a></h3>
+<ul>
+<li class="">ci fixes (<a href="https://github.com/jakta-bdi/jakta/issues/932" target="_blank" rel="noopener noreferrer" class="">#932</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/05a00cccdce80db2b9b907b6ecae23e417c13c21" target="_blank" rel="noopener noreferrer" class="">05a00cc</a>)</li>
+</ul>]]></content:encoded>
+            <category>JaKtA</category>
+            <category>Release</category>
+        </item>
         <item>
             <title><![CDATA[JaKtA is online!]]></title>
             <link>https://jakta-bdi.github.io/blog/first-blog-post</link>
