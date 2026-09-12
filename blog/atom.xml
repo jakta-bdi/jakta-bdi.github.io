@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jakta-bdi.github.io/blog</id>
     <title>JaKtA Blog</title>
-    <updated>2026-09-11T00:00:00.000Z</updated>
+    <updated>2026-09-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jakta-bdi.github.io/blog"/>
     <subtitle>JaKtA Blog</subtitle>
     <icon>https://jakta-bdi.github.io/img/favicon/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.3 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.3</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.3"/>
+        <updated>2026-09-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.3 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.3 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.3#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update plugin kotlin-qa to v1.9.1 (<a href="https://github.com/jakta-bdi/jakta/issues/936" target="_blank" rel="noopener noreferrer" class="">#936</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/ed9b02cb3cf8681927ee75d2b6cd5f7c38e4417a" target="_blank" rel="noopener noreferrer" class="">ed9b02c</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JaKtA 1.1.1 released]]></title>
         <id>https://jakta-bdi.github.io/blog/release-1.1.1</id>
@@ -23,6 +41,30 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-maintenance">General maintenance<a href="https://jakta-bdi.github.io/blog/release-1.1.1#general-maintenance" class="hash-link" aria-label="Direct link to General maintenance" title="Direct link to General maintenance" translate="no">​</a></h3>
 <ul>
 <li class="">ci fixes (<a href="https://github.com/jakta-bdi/jakta/issues/932" target="_blank" rel="noopener noreferrer" class="">#932</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/05a00cccdce80db2b9b907b6ecae23e417c13c21" target="_blank" rel="noopener noreferrer" class="">05a00cc</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.2 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.2</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.2"/>
+        <updated>2026-09-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.2 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.2 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.2#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update dependency typescript to ~5.8.0 (<a href="https://github.com/jakta-bdi/jakta/issues/916" target="_blank" rel="noopener noreferrer" class="">#916</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/d3960ca333e9d0a3544d5cee3286aab1ea143e5a" target="_blank" rel="noopener noreferrer" class="">d3960ca</a>)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-maintenance">General maintenance<a href="https://jakta-bdi.github.io/blog/release-1.1.2#general-maintenance" class="hash-link" aria-label="Direct link to General maintenance" title="Direct link to General maintenance" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>ci:</strong> fix the previous commit that got lost (<a href="https://github.com/jakta-bdi/jakta/issues/935" target="_blank" rel="noopener noreferrer" class="">#935</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/bd349a6a3c0ecd13d691fb4ac9f49ce5428e75f9" target="_blank" rel="noopener noreferrer" class="">bd349a6</a>)</li>
+<li class=""><strong>ci:</strong> fixing small merging error (<a href="https://github.com/jakta-bdi/jakta/issues/934" target="_blank" rel="noopener noreferrer" class="">#934</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/6d6c78d7b62f994d60d254904ff5750fdc58ad2d" target="_blank" rel="noopener noreferrer" class="">6d6c78d</a>)</li>
+<li class="">fixing npm release (<a href="https://github.com/jakta-bdi/jakta/issues/933" target="_blank" rel="noopener noreferrer" class="">#933</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/82122e73ec03904a551c05bb9b5e1f99ec8be766" target="_blank" rel="noopener noreferrer" class="">82122e7</a>)</li>
 </ul>]]></content>
         <author>
             <name>Samuele Burattini</name>
