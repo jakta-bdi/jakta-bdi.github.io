@@ -2,11 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jakta-bdi.github.io/blog</id>
     <title>JaKtA Blog</title>
-    <updated>2026-09-12T00:00:00.000Z</updated>
+    <updated>2026-09-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jakta-bdi.github.io/blog"/>
     <subtitle>JaKtA Blog</subtitle>
     <icon>https://jakta-bdi.github.io/img/favicon/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.5 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.5</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.5"/>
+        <updated>2026-09-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.5 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.5 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.5#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update plugin com.gradle.develocity to v4.5.1 (<a href="https://github.com/jakta-bdi/jakta/issues/900" target="_blank" rel="noopener noreferrer" class="">#900</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/3da54db368a54f85fea134b6c8e267d7da2acac3" target="_blank" rel="noopener noreferrer" class="">3da54db</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.6 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.6</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.6"/>
+        <updated>2026-09-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.6 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.6 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.6#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update plugin kotlin-qa to v1.9.2 (<a href="https://github.com/jakta-bdi/jakta/issues/938" target="_blank" rel="noopener noreferrer" class="">#938</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/a9c1acb1b6063968cd34cf3e1c23d01affaf0114" target="_blank" rel="noopener noreferrer" class="">a9c1acb</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.7 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.7</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.7"/>
+        <updated>2026-09-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.7 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.7 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.7#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update plugin multijvmtesting to v4.5.7 (<a href="https://github.com/jakta-bdi/jakta/issues/939" target="_blank" rel="noopener noreferrer" class="">#939</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/923f2b4bcf1c25c407f8f3d2ab1c5ca547138783" target="_blank" rel="noopener noreferrer" class="">923f2b4</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JaKtA 1.1.3 released]]></title>
         <id>https://jakta-bdi.github.io/blog/release-1.1.3</id>
@@ -17,6 +71,27 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.3#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>deps:</strong> update plugin kotlin-qa to v1.9.1 (<a href="https://github.com/jakta-bdi/jakta/issues/936" target="_blank" rel="noopener noreferrer" class="">#936</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/ed9b02cb3cf8681927ee75d2b6cd5f7c38e4417a" target="_blank" rel="noopener noreferrer" class="">ed9b02c</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.4 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.4</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.4"/>
+        <updated>2026-09-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.4 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.4 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.4#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update dependency typescript to ~5.9.0 (<a href="https://github.com/jakta-bdi/jakta/issues/917" target="_blank" rel="noopener noreferrer" class="">#917</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/071e2d9430e6d1a3d41b54519969d955205a29c2" target="_blank" rel="noopener noreferrer" class="">071e2d9</a>)</li>
+<li class=""><strong>deps:</strong> update dependency yaml-loader to ^0.9.0 (<a href="https://github.com/jakta-bdi/jakta/issues/918" target="_blank" rel="noopener noreferrer" class="">#918</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/a5224b445731e746a26752e3609439418298328d" target="_blank" rel="noopener noreferrer" class="">a5224b4</a>)</li>
+<li class=""><strong>deps:</strong> update docusaurus monorepo to v3.10.2 (<a href="https://github.com/jakta-bdi/jakta/issues/921" target="_blank" rel="noopener noreferrer" class="">#921</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/f3b5d435600f4c65f955521a194fea6e3067364b" target="_blank" rel="noopener noreferrer" class="">f3b5d43</a>)</li>
+<li class=""><strong>deps:</strong> update node.js to 24.21 (<a href="https://github.com/jakta-bdi/jakta/issues/928" target="_blank" rel="noopener noreferrer" class="">#928</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/b5bb92cc9dbb72ca9b59f672eb0306eb83cf5def" target="_blank" rel="noopener noreferrer" class="">b5bb92c</a>)</li>
 </ul>]]></content>
         <author>
             <name>Samuele Burattini</name>
