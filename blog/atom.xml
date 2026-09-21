@@ -2,11 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jakta-bdi.github.io/blog</id>
     <title>JaKtA Blog</title>
-    <updated>2026-09-15T00:00:00.000Z</updated>
+    <updated>2026-09-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jakta-bdi.github.io/blog"/>
     <subtitle>JaKtA Blog</subtitle>
     <icon>https://jakta-bdi.github.io/img/favicon/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.13 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.13</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.13"/>
+        <updated>2026-09-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.13 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.13 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.13#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update danysk/build-check-deploy-gradle-action action to v4.0.47 (<a href="https://github.com/jakta-bdi/jakta/issues/943" target="_blank" rel="noopener noreferrer" class="">#943</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/dabbe8618d76b882631c9eb08e19e28d81d7df3d" target="_blank" rel="noopener noreferrer" class="">dabbe86</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.12 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.12</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.12"/>
+        <updated>2026-09-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.12 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.12 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.12#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update tuprolog to v2.0.5 (<a href="https://github.com/jakta-bdi/jakta/issues/897" target="_blank" rel="noopener noreferrer" class="">#897</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/1bcf1f34108e646b27a160480b69305f7a7e6573" target="_blank" rel="noopener noreferrer" class="">1bcf1f3</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.11 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.11</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.11"/>
+        <updated>2026-09-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.11 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.11 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.11#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update dependency @iconify/react to v6 (<a href="https://github.com/jakta-bdi/jakta/issues/924" target="_blank" rel="noopener noreferrer" class="">#924</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/f919d25598e358e11b917d029354d0261dbc0c3a" target="_blank" rel="noopener noreferrer" class="">f919d25</a>)</li>
+<li class=""><strong>deps:</strong> update dependency typescript to v6 (<a href="https://github.com/jakta-bdi/jakta/issues/925" target="_blank" rel="noopener noreferrer" class="">#925</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/f96030ea7b8b7add63a02006d67dd6e7ab0619bb" target="_blank" rel="noopener noreferrer" class="">f96030e</a>)</li>
+<li class=""><strong>deps:</strong> update dependency typescript to v7 (<a href="https://github.com/jakta-bdi/jakta/issues/926" target="_blank" rel="noopener noreferrer" class="">#926</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/c780372fda464e8fad443e1388dfb0e8ece4453c" target="_blank" rel="noopener noreferrer" class="">c780372</a>)</li>
+<li class=""><strong>deps:</strong> update tuprolog to v2 (<a href="https://github.com/jakta-bdi/jakta/issues/940" target="_blank" rel="noopener noreferrer" class="">#940</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/dabdfa38464bcae7f0c142342293c9f3f01854f2" target="_blank" rel="noopener noreferrer" class="">dabdfa3</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JaKtA 1.1.10 released]]></title>
         <id>https://jakta-bdi.github.io/blog/release-1.1.10</id>

@@ -4,10 +4,55 @@
         <title>JaKtA Blog</title>
         <link>https://jakta-bdi.github.io/blog</link>
         <description>JaKtA Blog</description>
-        <lastBuildDate>Tue, 15 Sep 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Sep 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[JaKtA 1.1.13 released]]></title>
+            <link>https://jakta-bdi.github.io/blog/release-1.1.13</link>
+            <guid>https://jakta-bdi.github.io/blog/release-1.1.13</guid>
+            <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[JaKtA 1.1.13 is out.]]></description>
+            <content:encoded><![CDATA[<p>JaKtA 1.1.13 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.13#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update danysk/build-check-deploy-gradle-action action to v4.0.47 (<a href="https://github.com/jakta-bdi/jakta/issues/943" target="_blank" rel="noopener noreferrer" class="">#943</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/dabbe8618d76b882631c9eb08e19e28d81d7df3d" target="_blank" rel="noopener noreferrer" class="">dabbe86</a>)</li>
+</ul>]]></content:encoded>
+            <category>JaKtA</category>
+            <category>Release</category>
+        </item>
+        <item>
+            <title><![CDATA[JaKtA 1.1.12 released]]></title>
+            <link>https://jakta-bdi.github.io/blog/release-1.1.12</link>
+            <guid>https://jakta-bdi.github.io/blog/release-1.1.12</guid>
+            <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[JaKtA 1.1.12 is out.]]></description>
+            <content:encoded><![CDATA[<p>JaKtA 1.1.12 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.12#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update tuprolog to v2.0.5 (<a href="https://github.com/jakta-bdi/jakta/issues/897" target="_blank" rel="noopener noreferrer" class="">#897</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/1bcf1f34108e646b27a160480b69305f7a7e6573" target="_blank" rel="noopener noreferrer" class="">1bcf1f3</a>)</li>
+</ul>]]></content:encoded>
+            <category>JaKtA</category>
+            <category>Release</category>
+        </item>
+        <item>
+            <title><![CDATA[JaKtA 1.1.11 released]]></title>
+            <link>https://jakta-bdi.github.io/blog/release-1.1.11</link>
+            <guid>https://jakta-bdi.github.io/blog/release-1.1.11</guid>
+            <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[JaKtA 1.1.11 is out.]]></description>
+            <content:encoded><![CDATA[<p>JaKtA 1.1.11 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.11#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update dependency @iconify/react to v6 (<a href="https://github.com/jakta-bdi/jakta/issues/924" target="_blank" rel="noopener noreferrer" class="">#924</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/f919d25598e358e11b917d029354d0261dbc0c3a" target="_blank" rel="noopener noreferrer" class="">f919d25</a>)</li>
+<li class=""><strong>deps:</strong> update dependency typescript to v6 (<a href="https://github.com/jakta-bdi/jakta/issues/925" target="_blank" rel="noopener noreferrer" class="">#925</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/f96030ea7b8b7add63a02006d67dd6e7ab0619bb" target="_blank" rel="noopener noreferrer" class="">f96030e</a>)</li>
+<li class=""><strong>deps:</strong> update dependency typescript to v7 (<a href="https://github.com/jakta-bdi/jakta/issues/926" target="_blank" rel="noopener noreferrer" class="">#926</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/c780372fda464e8fad443e1388dfb0e8ece4453c" target="_blank" rel="noopener noreferrer" class="">c780372</a>)</li>
+<li class=""><strong>deps:</strong> update tuprolog to v2 (<a href="https://github.com/jakta-bdi/jakta/issues/940" target="_blank" rel="noopener noreferrer" class="">#940</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/dabdfa38464bcae7f0c142342293c9f3f01854f2" target="_blank" rel="noopener noreferrer" class="">dabdfa3</a>)</li>
+</ul>]]></content:encoded>
+            <category>JaKtA</category>
+            <category>Release</category>
+        </item>
         <item>
             <title><![CDATA[JaKtA 1.1.10 released]]></title>
             <link>https://jakta-bdi.github.io/blog/release-1.1.10</link>
