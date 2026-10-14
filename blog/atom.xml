@@ -2,11 +2,319 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jakta-bdi.github.io/blog</id>
     <title>JaKtA Blog</title>
-    <updated>2026-09-19T00:00:00.000Z</updated>
+    <updated>2026-10-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jakta-bdi.github.io/blog"/>
     <subtitle>JaKtA Blog</subtitle>
     <icon>https://jakta-bdi.github.io/img/favicon/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.28 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.28</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.28"/>
+        <updated>2026-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.28 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.28 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="dependency-updates">Dependency updates<a href="https://jakta-bdi.github.io/blog/release-1.1.28#dependency-updates" class="hash-link" aria-label="Direct link to Dependency updates" title="Direct link to Dependency updates" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>core-deps:</strong> update dependency com.github.ben-manes.caffeine<!-- -->:caffeine<!-- --> to v3.3.1 (<a href="https://github.com/jakta-bdi/jakta/issues/1005" target="_blank" rel="noopener noreferrer" class="">#1005</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/77bcaa8f0929a9944de0242abc4042a339fc31ff" target="_blank" rel="noopener noreferrer" class="">77bcaa8</a>)</li>
+<li class=""><strong>deps:</strong> update dependency org.danilopianini.publish-on-central to v9.2.14 (<a href="https://github.com/jakta-bdi/jakta/issues/1000" target="_blank" rel="noopener noreferrer" class="">#1000</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/7fe5269345e336a4120ec17e19ab6a88f45b0849" target="_blank" rel="noopener noreferrer" class="">7fe5269</a>)</li>
+<li class=""><strong>deps:</strong> update plugin gitsemver to v7.0.25 (<a href="https://github.com/jakta-bdi/jakta/issues/1002" target="_blank" rel="noopener noreferrer" class="">#1002</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/3fafaf69c300928a5c424401fc2217f30f50a54e" target="_blank" rel="noopener noreferrer" class="">3fafaf6</a>)</li>
+<li class=""><strong>deps:</strong> update plugin multijvmtesting to v4.5.10 (<a href="https://github.com/jakta-bdi/jakta/issues/1001" target="_blank" rel="noopener noreferrer" class="">#1001</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/4578a0348e10a2a25ca9f005d777563198681f3a" target="_blank" rel="noopener noreferrer" class="">4578a03</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.29 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.29</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.29"/>
+        <updated>2026-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.29 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.29 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.29#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>prolog:</strong> make askAllTo send an AskAll performative (<a href="https://github.com/jakta-bdi/jakta/issues/975" target="_blank" rel="noopener noreferrer" class="">#975</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/73faf86c1ceae1f8d3b600e266681e2329b529eb" target="_blank" rel="noopener noreferrer" class="">73faf86</a>)</li>
+<li class=""><strong>prolog:</strong> match goal annotations like belief annotations (<a href="https://github.com/jakta-bdi/jakta/issues/976" target="_blank" rel="noopener noreferrer" class="">#976</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/fdf66a91e478b072bd77c51fd2957b3ffcb203cf" target="_blank" rel="noopener noreferrer" class="">fdf66a9</a>), closes <a href="https://github.com/tuProlog/2p-kt/issues/926" target="_blank" rel="noopener noreferrer" class="">tuProlog/2p-kt#926</a></li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.27 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.27</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.27"/>
+        <updated>2026-10-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.27 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.27 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="dependency-updates">Dependency updates<a href="https://jakta-bdi.github.io/blog/release-1.1.27#dependency-updates" class="hash-link" aria-label="Direct link to Dependency updates" title="Direct link to Dependency updates" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>core-deps:</strong> update kotlin monorepo to v2.4.21 (<a href="https://github.com/jakta-bdi/jakta/issues/998" target="_blank" rel="noopener noreferrer" class="">#998</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/272ba61abb2d7047d606c25f57a9c3357bbe34ab" target="_blank" rel="noopener noreferrer" class="">272ba61</a>)</li>
+<li class=""><strong>deps:</strong> update dependency org.danilopianini.publish-on-central to v9.2.13 (<a href="https://github.com/jakta-bdi/jakta/issues/994" target="_blank" rel="noopener noreferrer" class="">#994</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/95124eb23023ab09c6e1cc99a1c0201025a1d080" target="_blank" rel="noopener noreferrer" class="">95124eb</a>)</li>
+<li class=""><strong>deps:</strong> update gradle to v9.8.1 (<a href="https://github.com/jakta-bdi/jakta/issues/993" target="_blank" rel="noopener noreferrer" class="">#993</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/ab9c4ffd8f75b2cbb4e0e6f36c891e808b519f3a" target="_blank" rel="noopener noreferrer" class="">ab9c4ff</a>)</li>
+<li class=""><strong>deps:</strong> update plugin kotlin-qa to v1.10.1 (<a href="https://github.com/jakta-bdi/jakta/issues/996" target="_blank" rel="noopener noreferrer" class="">#996</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/aa63b89d7ea017fdeeba786008254578af3fff45" target="_blank" rel="noopener noreferrer" class="">aa63b89</a>)</li>
+<li class=""><strong>deps:</strong> update plugin multijvmtesting to v4.5.8 (<a href="https://github.com/jakta-bdi/jakta/issues/991" target="_blank" rel="noopener noreferrer" class="">#991</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/de0a63026a6ee9ae7fd5f8b71150f9b0162059cc" target="_blank" rel="noopener noreferrer" class="">de0a630</a>)</li>
+<li class=""><strong>deps:</strong> update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.26 (<a href="https://github.com/jakta-bdi/jakta/issues/995" target="_blank" rel="noopener noreferrer" class="">#995</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/d2837180e13379cb7c5363d5e385bae3a810cc9f" target="_blank" rel="noopener noreferrer" class="">d283718</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.25 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.25</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.25"/>
+        <updated>2026-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.25 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.25 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.25#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>api:</strong> let agents run on dispatchers that do not implement Delay (<a href="https://github.com/jakta-bdi/jakta/issues/969" target="_blank" rel="noopener noreferrer" class="">#969</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/58c625396ab0a3950404c671589c0a6b5b29289e" target="_blank" rel="noopener noreferrer" class="">58c6253</a>)</li>
+<li class=""><strong>core:</strong> copy the beliefs in BeliefBase.snapshot() and let JS tests fail (<a href="https://github.com/jakta-bdi/jakta/issues/968" target="_blank" rel="noopener noreferrer" class="">#968</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/49043d5a76ab6d8cc32fd0a5e139b3af7c711f82" target="_blank" rel="noopener noreferrer" class="">49043d5</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.26 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.26</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.26"/>
+        <updated>2026-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.26 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.26 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.26#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>prolog-incarnation:</strong> classic solver bundle issue and interactive Compose Multiplatform examples (blocksworld, tic-tac-toe, cleaning robots) and console BDI demos (<a href="https://github.com/jakta-bdi/jakta/issues/951" target="_blank" rel="noopener noreferrer" class="">#951</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/c6279fbcc5b4a6ba7abe80a658169f72bdbc2270" target="_blank" rel="noopener noreferrer" class="">c6279fb</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.23 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.23</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.23"/>
+        <updated>2026-09-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.23 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.23 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.23#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>core-deps:</strong> update plugin kover to v0.9.11 (<a href="https://github.com/jakta-bdi/jakta/issues/966" target="_blank" rel="noopener noreferrer" class="">#966</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/74d12d6e510bff8907e9b9c2034e0e33ec1f25e5" target="_blank" rel="noopener noreferrer" class="">74d12d6</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.24 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.24</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.24"/>
+        <updated>2026-09-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.24 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.24 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.24#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update kotlin to v2.4.20 and tuprolog to v2.0.9 (<a href="https://github.com/jakta-bdi/jakta/issues/959" target="_blank" rel="noopener noreferrer" class="">#959</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/250f6ef4c9173ec1c5ef1154d231d854209a6d99" target="_blank" rel="noopener noreferrer" class="">250f6ef</a>)</li>
+<li class=""><strong>deps:</strong> update plugin npm-publish to v4.1.11 (<a href="https://github.com/jakta-bdi/jakta/issues/896" target="_blank" rel="noopener noreferrer" class="">#896</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/9e535b285b3a3bd70776f622150e0deb401ab4e4" target="_blank" rel="noopener noreferrer" class="">9e535b2</a>)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="build-and-continuous-integration">Build and continuous integration<a href="https://jakta-bdi.github.io/blog/release-1.1.24#build-and-continuous-integration" class="hash-link" aria-label="Direct link to Build and continuous integration" title="Direct link to Build and continuous integration" translate="no">​</a></h3>
+<ul>
+<li class="">release only for runtime dependency updates (<a href="https://github.com/jakta-bdi/jakta/issues/956" target="_blank" rel="noopener noreferrer" class="">#956</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/6418c8f787d6519cd38ce50c1e9442550d9a2e72" target="_blank" rel="noopener noreferrer" class="">6418c8f</a>)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-maintenance">General maintenance<a href="https://jakta-bdi.github.io/blog/release-1.1.24#general-maintenance" class="hash-link" aria-label="Direct link to General maintenance" title="Direct link to General maintenance" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>codacy:</strong> exclude test sources from detekt analysis (<a href="https://github.com/jakta-bdi/jakta/issues/957" target="_blank" rel="noopener noreferrer" class="">#957</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/8c534205c07d543e5a378f4fc3b27f7fc008ec4f" target="_blank" rel="noopener noreferrer" class="">8c53420</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.21 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.21</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.21"/>
+        <updated>2026-09-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.21 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.21 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.21#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>core-deps:</strong> update plugin kover to v0.9.10 (<a href="https://github.com/jakta-bdi/jakta/issues/964" target="_blank" rel="noopener noreferrer" class="">#964</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/bd9217c39687fbc963e85b1c011c371d8c2c3883" target="_blank" rel="noopener noreferrer" class="">bd9217c</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.22 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.22</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.22"/>
+        <updated>2026-09-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.22 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.22 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.22#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update danysk/build-check-deploy-gradle-action action to v4.0.48 (<a href="https://github.com/jakta-bdi/jakta/issues/965" target="_blank" rel="noopener noreferrer" class="">#965</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/f4b3d4a4bd8afca5ace815701705f6ca029f9310" target="_blank" rel="noopener noreferrer" class="">f4b3d4a</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.20 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.20</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.20"/>
+        <updated>2026-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.20 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.20 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.20#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update plugin kotlin-qa to v1.10.0 (<a href="https://github.com/jakta-bdi/jakta/issues/963" target="_blank" rel="noopener noreferrer" class="">#963</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/a6bb6626b8c4cef2afe56eb50b01b2d1d74e5202" target="_blank" rel="noopener noreferrer" class="">a6bb662</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.16 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.16</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.16"/>
+        <updated>2026-09-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.16 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.16 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.16#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update plugin kotlin-qa to v1.9.3 (<a href="https://github.com/jakta-bdi/jakta/issues/948" target="_blank" rel="noopener noreferrer" class="">#948</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/7f579fe1ca78eb2c67d4799df5019656b534d04e" target="_blank" rel="noopener noreferrer" class="">7f579fe</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.17 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.17</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.17"/>
+        <updated>2026-09-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.17 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.17 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.17#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.25 (<a href="https://github.com/jakta-bdi/jakta/issues/952" target="_blank" rel="noopener noreferrer" class="">#952</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/d5f62f0351db5004b524f54fcbd91b03480a153a" target="_blank" rel="noopener noreferrer" class="">d5f62f0</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.18 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.18</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.18"/>
+        <updated>2026-09-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.18 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.18 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.18#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update gradle to v9.8.0 (<a href="https://github.com/jakta-bdi/jakta/issues/949" target="_blank" rel="noopener noreferrer" class="">#949</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/2c79e2b7b4792af2f0fd04d3bad38f13a6422808" target="_blank" rel="noopener noreferrer" class="">2c79e2b</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.19 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.19</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.19"/>
+        <updated>2026-09-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.19 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.19 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.19#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update plugin com.gradle.develocity to v4.6.0 (<a href="https://github.com/jakta-bdi/jakta/issues/950" target="_blank" rel="noopener noreferrer" class="">#950</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/03ee8393a066acc887a2e96a3ca584a460a0fb6d" target="_blank" rel="noopener noreferrer" class="">03ee839</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.15 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.15</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.15"/>
+        <updated>2026-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.15 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.15 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.15#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update dependency org.danilopianini.publish-on-central to v9.2.12 (<a href="https://github.com/jakta-bdi/jakta/issues/947" target="_blank" rel="noopener noreferrer" class="">#947</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/3c8a9836b2b4fe774870689190c17e9e7d328b7e" target="_blank" rel="noopener noreferrer" class="">3c8a983</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JaKtA 1.1.14 released]]></title>
+        <id>https://jakta-bdi.github.io/blog/release-1.1.14</id>
+        <link href="https://jakta-bdi.github.io/blog/release-1.1.14"/>
+        <updated>2026-09-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JaKtA 1.1.14 is out.]]></summary>
+        <content type="html"><![CDATA[<p>JaKtA 1.1.14 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.14#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update citation-js monorepo to ^0.9.0 (<a href="https://github.com/jakta-bdi/jakta/issues/944" target="_blank" rel="noopener noreferrer" class="">#944</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/b58a4990e6a5042843904fed0bea5e25d7310610" target="_blank" rel="noopener noreferrer" class="">b58a499</a>)</li>
+<li class=""><strong>deps:</strong> update dependency com.github.ben-manes.caffeine<!-- -->:caffeine<!-- --> to v3.3.0 (<a href="https://github.com/jakta-bdi/jakta/issues/945" target="_blank" rel="noopener noreferrer" class="">#945</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/7f7e899cc9ade6d370ff2092a8e677784b55d334" target="_blank" rel="noopener noreferrer" class="">7f7e899</a>)</li>
+</ul>]]></content>
+        <author>
+            <name>Samuele Burattini</name>
+            <uri>https://github.com/samubura</uri>
+        </author>
+        <category label="JaKtA" term="JaKtA"/>
+        <category label="Release" term="Release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JaKtA 1.1.13 released]]></title>
         <id>https://jakta-bdi.github.io/blog/release-1.1.13</id>
@@ -81,298 +389,5 @@
         </author>
         <category label="JaKtA" term="JaKtA"/>
         <category label="Release" term="Release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JaKtA 1.1.9 released]]></title>
-        <id>https://jakta-bdi.github.io/blog/release-1.1.9</id>
-        <link href="https://jakta-bdi.github.io/blog/release-1.1.9"/>
-        <updated>2026-09-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JaKtA 1.1.9 is out.]]></summary>
-        <content type="html"><![CDATA[<p>JaKtA 1.1.9 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.9#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update tuprolog to v1.5.1 (<a href="https://github.com/jakta-bdi/jakta/issues/908" target="_blank" rel="noopener noreferrer" class="">#908</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/27dfc04bfea0ee3b9900688fbeaa66a35fa0c8d7" target="_blank" rel="noopener noreferrer" class="">27dfc04</a>)</li>
-</ul>]]></content>
-        <author>
-            <name>Samuele Burattini</name>
-            <uri>https://github.com/samubura</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Release" term="Release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JaKtA 1.1.8 released]]></title>
-        <id>https://jakta-bdi.github.io/blog/release-1.1.8</id>
-        <link href="https://jakta-bdi.github.io/blog/release-1.1.8"/>
-        <updated>2026-09-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JaKtA 1.1.8 is out.]]></summary>
-        <content type="html"><![CDATA[<p>JaKtA 1.1.8 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.8#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update react monorepo to v19.1.9 (<a href="https://github.com/jakta-bdi/jakta/issues/922" target="_blank" rel="noopener noreferrer" class="">#922</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/193d5047417f8b51de0d989ad8582765d73b3728" target="_blank" rel="noopener noreferrer" class="">193d504</a>)</li>
-<li class=""><strong>deps:</strong> update react monorepo to v19.2.8 (<a href="https://github.com/jakta-bdi/jakta/issues/923" target="_blank" rel="noopener noreferrer" class="">#923</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/c6b00e7ae42675580a0c7f38a868530eb37730cb" target="_blank" rel="noopener noreferrer" class="">c6b00e7</a>)</li>
-<li class=""><strong>deps:</strong> update react monorepo to v19.3.0 (<a href="https://github.com/jakta-bdi/jakta/issues/937" target="_blank" rel="noopener noreferrer" class="">#937</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/7b613dde9b6edb929fd109c3b669d3296940c5a4" target="_blank" rel="noopener noreferrer" class="">7b613dd</a>)</li>
-<li class=""><strong>deps:</strong> update tuprolog to v1.4.1 (<a href="https://github.com/jakta-bdi/jakta/issues/901" target="_blank" rel="noopener noreferrer" class="">#901</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/926405659eb0cf9ea8cb808a1a1722d9c1be811c" target="_blank" rel="noopener noreferrer" class="">9264056</a>)</li>
-</ul>]]></content>
-        <author>
-            <name>Samuele Burattini</name>
-            <uri>https://github.com/samubura</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Release" term="Release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JaKtA 1.1.5 released]]></title>
-        <id>https://jakta-bdi.github.io/blog/release-1.1.5</id>
-        <link href="https://jakta-bdi.github.io/blog/release-1.1.5"/>
-        <updated>2026-09-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JaKtA 1.1.5 is out.]]></summary>
-        <content type="html"><![CDATA[<p>JaKtA 1.1.5 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.5#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update plugin com.gradle.develocity to v4.5.1 (<a href="https://github.com/jakta-bdi/jakta/issues/900" target="_blank" rel="noopener noreferrer" class="">#900</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/3da54db368a54f85fea134b6c8e267d7da2acac3" target="_blank" rel="noopener noreferrer" class="">3da54db</a>)</li>
-</ul>]]></content>
-        <author>
-            <name>Samuele Burattini</name>
-            <uri>https://github.com/samubura</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Release" term="Release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JaKtA 1.1.6 released]]></title>
-        <id>https://jakta-bdi.github.io/blog/release-1.1.6</id>
-        <link href="https://jakta-bdi.github.io/blog/release-1.1.6"/>
-        <updated>2026-09-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JaKtA 1.1.6 is out.]]></summary>
-        <content type="html"><![CDATA[<p>JaKtA 1.1.6 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.6#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update plugin kotlin-qa to v1.9.2 (<a href="https://github.com/jakta-bdi/jakta/issues/938" target="_blank" rel="noopener noreferrer" class="">#938</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/a9c1acb1b6063968cd34cf3e1c23d01affaf0114" target="_blank" rel="noopener noreferrer" class="">a9c1acb</a>)</li>
-</ul>]]></content>
-        <author>
-            <name>Samuele Burattini</name>
-            <uri>https://github.com/samubura</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Release" term="Release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JaKtA 1.1.7 released]]></title>
-        <id>https://jakta-bdi.github.io/blog/release-1.1.7</id>
-        <link href="https://jakta-bdi.github.io/blog/release-1.1.7"/>
-        <updated>2026-09-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JaKtA 1.1.7 is out.]]></summary>
-        <content type="html"><![CDATA[<p>JaKtA 1.1.7 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.7#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update plugin multijvmtesting to v4.5.7 (<a href="https://github.com/jakta-bdi/jakta/issues/939" target="_blank" rel="noopener noreferrer" class="">#939</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/923f2b4bcf1c25c407f8f3d2ab1c5ca547138783" target="_blank" rel="noopener noreferrer" class="">923f2b4</a>)</li>
-</ul>]]></content>
-        <author>
-            <name>Samuele Burattini</name>
-            <uri>https://github.com/samubura</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Release" term="Release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JaKtA 1.1.3 released]]></title>
-        <id>https://jakta-bdi.github.io/blog/release-1.1.3</id>
-        <link href="https://jakta-bdi.github.io/blog/release-1.1.3"/>
-        <updated>2026-09-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JaKtA 1.1.3 is out.]]></summary>
-        <content type="html"><![CDATA[<p>JaKtA 1.1.3 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.3#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update plugin kotlin-qa to v1.9.1 (<a href="https://github.com/jakta-bdi/jakta/issues/936" target="_blank" rel="noopener noreferrer" class="">#936</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/ed9b02cb3cf8681927ee75d2b6cd5f7c38e4417a" target="_blank" rel="noopener noreferrer" class="">ed9b02c</a>)</li>
-</ul>]]></content>
-        <author>
-            <name>Samuele Burattini</name>
-            <uri>https://github.com/samubura</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Release" term="Release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JaKtA 1.1.4 released]]></title>
-        <id>https://jakta-bdi.github.io/blog/release-1.1.4</id>
-        <link href="https://jakta-bdi.github.io/blog/release-1.1.4"/>
-        <updated>2026-09-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JaKtA 1.1.4 is out.]]></summary>
-        <content type="html"><![CDATA[<p>JaKtA 1.1.4 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.4#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update dependency typescript to ~5.9.0 (<a href="https://github.com/jakta-bdi/jakta/issues/917" target="_blank" rel="noopener noreferrer" class="">#917</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/071e2d9430e6d1a3d41b54519969d955205a29c2" target="_blank" rel="noopener noreferrer" class="">071e2d9</a>)</li>
-<li class=""><strong>deps:</strong> update dependency yaml-loader to ^0.9.0 (<a href="https://github.com/jakta-bdi/jakta/issues/918" target="_blank" rel="noopener noreferrer" class="">#918</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/a5224b445731e746a26752e3609439418298328d" target="_blank" rel="noopener noreferrer" class="">a5224b4</a>)</li>
-<li class=""><strong>deps:</strong> update docusaurus monorepo to v3.10.2 (<a href="https://github.com/jakta-bdi/jakta/issues/921" target="_blank" rel="noopener noreferrer" class="">#921</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/f3b5d435600f4c65f955521a194fea6e3067364b" target="_blank" rel="noopener noreferrer" class="">f3b5d43</a>)</li>
-<li class=""><strong>deps:</strong> update node.js to 24.21 (<a href="https://github.com/jakta-bdi/jakta/issues/928" target="_blank" rel="noopener noreferrer" class="">#928</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/b5bb92cc9dbb72ca9b59f672eb0306eb83cf5def" target="_blank" rel="noopener noreferrer" class="">b5bb92c</a>)</li>
-</ul>]]></content>
-        <author>
-            <name>Samuele Burattini</name>
-            <uri>https://github.com/samubura</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Release" term="Release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JaKtA 1.1.1 released]]></title>
-        <id>https://jakta-bdi.github.io/blog/release-1.1.1</id>
-        <link href="https://jakta-bdi.github.io/blog/release-1.1.1"/>
-        <updated>2026-09-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JaKtA 1.1.1 is out.]]></summary>
-        <content type="html"><![CDATA[<p>JaKtA 1.1.1 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.1#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update dependency typescript to ~5.7.0 (<a href="https://github.com/jakta-bdi/jakta/issues/915" target="_blank" rel="noopener noreferrer" class="">#915</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/95a644284c2c7dfa2536ac6e8806a707f6250f88" target="_blank" rel="noopener noreferrer" class="">95a6442</a>)</li>
-<li class=""><strong>deps:</strong> update docusaurus monorepo to v3.9.2 (<a href="https://github.com/jakta-bdi/jakta/issues/920" target="_blank" rel="noopener noreferrer" class="">#920</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/d27d697cb82c78e875fe5cce1c03d68a46596e4b" target="_blank" rel="noopener noreferrer" class="">d27d697</a>)</li>
-<li class=""><strong>deps:</strong> update react monorepo to v19.0.8 (<a href="https://github.com/jakta-bdi/jakta/issues/913" target="_blank" rel="noopener noreferrer" class="">#913</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/80459dc782a6bd3a6635f107e461cf844b0d692d" target="_blank" rel="noopener noreferrer" class="">80459dc</a>)</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-maintenance">General maintenance<a href="https://jakta-bdi.github.io/blog/release-1.1.1#general-maintenance" class="hash-link" aria-label="Direct link to General maintenance" title="Direct link to General maintenance" translate="no">​</a></h3>
-<ul>
-<li class="">ci fixes (<a href="https://github.com/jakta-bdi/jakta/issues/932" target="_blank" rel="noopener noreferrer" class="">#932</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/05a00cccdce80db2b9b907b6ecae23e417c13c21" target="_blank" rel="noopener noreferrer" class="">05a00cc</a>)</li>
-</ul>]]></content>
-        <author>
-            <name>Samuele Burattini</name>
-            <uri>https://github.com/samubura</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Release" term="Release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JaKtA 1.1.2 released]]></title>
-        <id>https://jakta-bdi.github.io/blog/release-1.1.2</id>
-        <link href="https://jakta-bdi.github.io/blog/release-1.1.2"/>
-        <updated>2026-09-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JaKtA 1.1.2 is out.]]></summary>
-        <content type="html"><![CDATA[<p>JaKtA 1.1.2 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.2#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update dependency typescript to ~5.8.0 (<a href="https://github.com/jakta-bdi/jakta/issues/916" target="_blank" rel="noopener noreferrer" class="">#916</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/d3960ca333e9d0a3544d5cee3286aab1ea143e5a" target="_blank" rel="noopener noreferrer" class="">d3960ca</a>)</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-maintenance">General maintenance<a href="https://jakta-bdi.github.io/blog/release-1.1.2#general-maintenance" class="hash-link" aria-label="Direct link to General maintenance" title="Direct link to General maintenance" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>ci:</strong> fix the previous commit that got lost (<a href="https://github.com/jakta-bdi/jakta/issues/935" target="_blank" rel="noopener noreferrer" class="">#935</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/bd349a6a3c0ecd13d691fb4ac9f49ce5428e75f9" target="_blank" rel="noopener noreferrer" class="">bd349a6</a>)</li>
-<li class=""><strong>ci:</strong> fixing small merging error (<a href="https://github.com/jakta-bdi/jakta/issues/934" target="_blank" rel="noopener noreferrer" class="">#934</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/6d6c78d7b62f994d60d254904ff5750fdc58ad2d" target="_blank" rel="noopener noreferrer" class="">6d6c78d</a>)</li>
-<li class="">fixing npm release (<a href="https://github.com/jakta-bdi/jakta/issues/933" target="_blank" rel="noopener noreferrer" class="">#933</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/82122e73ec03904a551c05bb9b5e1f99ec8be766" target="_blank" rel="noopener noreferrer" class="">82122e7</a>)</li>
-</ul>]]></content>
-        <author>
-            <name>Samuele Burattini</name>
-            <uri>https://github.com/samubura</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Release" term="Release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JaKtA is online!]]></title>
-        <id>https://jakta-bdi.github.io/blog/first-blog-post</id>
-        <link href="https://jakta-bdi.github.io/blog/first-blog-post"/>
-        <updated>2025-03-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We are excited to announce that the new JaKtA website is now live!]]></summary>
-        <content type="html"><![CDATA[<p>We are excited to announce that the new JaKtA website is now live!</p>
-<p>Built with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer" class="">Docusaurus</a>, our new site offers a sleek and modern design, improved navigation, and a wealth of resources for the JaKtA community.</p>
-<p>Explore our documentation, join the <a href="https://github.com/orgs/jakta-bdi/discussions" target="_blank" rel="noopener noreferrer" class="">community discussions</a>, and stay updated with the latest news and updates. We hope you enjoy the new experience and find it helpful in your journey with JaKtA.</p>
-<p>Check it out now and let us know what you think!</p>]]></content>
-        <author>
-            <name>Samuele Burattini</name>
-            <uri>https://github.com/samubura</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Community" term="Community"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Publication: Supporting Autonomic Computing via BDI Tooling]]></title>
-        <id>https://jakta-bdi.github.io/blog/paper-dblp-conf-acsos-baiardi24</id>
-        <link href="https://jakta-bdi.github.io/blog/paper-dblp-conf-acsos-baiardi24"/>
-        <updated>2024-01-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A new paper related to JaKtA has been published at IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2024 - Companion, Aarhus, Denmark, September 16-20, 2024 (2024).]]></summary>
-        <content type="html"><![CDATA[<p>A new paper related to JaKtA has been published at IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2024 - Companion, Aarhus, Denmark, September 16-20, 2024 (2024).</p>
-<p><strong>Authors</strong>: Martina Baiardi
-<strong>Venue</strong>: IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2024 - Companion, Aarhus, Denmark, September 16-20, 2024 (2024)
-<strong>Link</strong>: <a href="https://doi.org/10.1109/ACSOS-C63493.2024.00047" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1109/ACSOS-C63493.2024.00047</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="abstract">Abstract<a href="https://jakta-bdi.github.io/blog/paper-dblp-conf-acsos-baiardi24#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract" translate="no">​</a></h3>
-<p>In this abstract, we briefly discuss the relationship between Agent-Oriented software engineering, with special attention to the Belief-Desire-Intention paradigm, and the world of autonomic computing. Although these two worlds seem on paper to be complementary, in the sense that BDI sounds like a highly effective paradigm to implement autonomic systems, in practice, they are not widespread as technological choices in the community. We argue that the reason is mostly related to the current state of the tooling rather than the paradigm, and we propose a novel approach to build tools for BDI agent-oriented programming that could ease adoption in the autonomic and self-organising systems community.</p>]]></content>
-        <author>
-            <name>Martina Baiardi</name>
-            <uri>https://github.com/anitvam</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Paper" term="Paper"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Publication: On the External Concurrency of Current BDI Frameworks for MAS]]></title>
-        <id>https://jakta-bdi.github.io/blog/paper-dblp-conf-emas-baiardibcpro24</id>
-        <link href="https://jakta-bdi.github.io/blog/paper-dblp-conf-emas-baiardibcpro24"/>
-        <updated>2024-01-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A new paper related to JaKtA has been published at Engineering Multi-Agent Systems - 12th International Workshop, EMAS 2024, Auckland, New Zealand, May 6-7, 2024, Revised Selected Papers (2024).]]></summary>
-        <content type="html"><![CDATA[<p>A new paper related to JaKtA has been published at Engineering Multi-Agent Systems - 12th International Workshop, EMAS 2024, Auckland, New Zealand, May 6-7, 2024, Revised Selected Papers (2024).</p>
-<p><strong>Authors</strong>: Martina Baiardi, Samuele Burattini, Giovanni Ciatto, Danilo Pianini, Alessandro Ricci, Andrea Omicini
-<strong>Venue</strong>: Engineering Multi-Agent Systems - 12th International Workshop, EMAS 2024, Auckland, New Zealand, May 6-7, 2024, Revised Selected Papers (2024)
-<strong>Link</strong>: <a href="https://doi.org/10.1007/978-3-031-71152-7_3" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1007/978-3-031-71152-7_3</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="abstract">Abstract<a href="https://jakta-bdi.github.io/blog/paper-dblp-conf-emas-baiardibcpro24#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract" translate="no">​</a></h3>
-<p>The execution of Belief-Desire-Intention (BDI) agents in a Multi-Agent System (MAS) can be practically implemented on top of low-level concurrency mechanisms that impact on efficiency, determinism, and reproducibility. We argue that developers should specify the MAS behaviour independently of the execution model, and choose or configure the concurrency model later on, according to the specific needs of their target domain, leaving the MAS specification unaffected. We identify patterns for mapping the agent execution over the underlying concurrency abstractions, and investigate which concurrency models are supported by some of the most commonly used BDI platforms. Although most frameworks support multiple concurrency models, we find that they mostly hide them under the hood, making them opaque to the developer, and actually limiting the possibility of fine-tuning the MAS.</p>]]></content>
-        <author>
-            <name>Martina Baiardi</name>
-            <uri>https://github.com/anitvam</uri>
-        </author>
-        <author>
-            <name>Samuele Burattini</name>
-            <uri>https://github.com/samubura</uri>
-        </author>
-        <author>
-            <name>Giovanni Ciatto</name>
-            <uri>https://github.com/gciatto</uri>
-        </author>
-        <author>
-            <name>Danilo Pianini</name>
-            <uri>https://github.com/danysk</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Paper" term="Paper"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Publication: A Step Forward to Widespread BDI AOP: JaKtA]]></title>
-        <id>https://jakta-bdi.github.io/blog/paper-dblp-conf-eumas-baiardi23</id>
-        <link href="https://jakta-bdi.github.io/blog/paper-dblp-conf-eumas-baiardi23"/>
-        <updated>2023-01-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A new paper related to JaKtA has been published at Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023).]]></summary>
-        <content type="html"><![CDATA[<p>A new paper related to JaKtA has been published at Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023).</p>
-<p><strong>Authors</strong>: Martina Baiardi
-<strong>Venue</strong>: Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023)
-<strong>Link</strong>: <a href="https://doi.org/10.1007/978-3-031-43264-4_31" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1007/978-3-031-43264-4_31</a></p>]]></content>
-        <author>
-            <name>Martina Baiardi</name>
-            <uri>https://github.com/anitvam</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Paper" term="Paper"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Publication: JaKtA: BDI Agent-Oriented Programming in Pure Kotlin]]></title>
-        <id>https://jakta-bdi.github.io/blog/paper-dblp-conf-eumas-baiardibcp23</id>
-        <link href="https://jakta-bdi.github.io/blog/paper-dblp-conf-eumas-baiardibcp23"/>
-        <updated>2023-01-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A new paper related to JaKtA has been published at Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023).]]></summary>
-        <content type="html"><![CDATA[<p>A new paper related to JaKtA has been published at Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023).</p>
-<p><strong>Authors</strong>: Martina Baiardi, Samuele Burattini, Giovanni Ciatto, Danilo Pianini
-<strong>Venue</strong>: Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023)
-<strong>Link</strong>: <a href="https://doi.org/10.1007/978-3-031-43264-4_4" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1007/978-3-031-43264-4_4</a></p>]]></content>
-        <author>
-            <name>Martina Baiardi</name>
-            <uri>https://github.com/anitvam</uri>
-        </author>
-        <author>
-            <name>Samuele Burattini</name>
-            <uri>https://github.com/samubura</uri>
-        </author>
-        <author>
-            <name>Giovanni Ciatto</name>
-            <uri>https://github.com/gciatto</uri>
-        </author>
-        <author>
-            <name>Danilo Pianini</name>
-            <uri>https://github.com/danysk</uri>
-        </author>
-        <category label="JaKtA" term="JaKtA"/>
-        <category label="Paper" term="Paper"/>
     </entry>
 </feed>
