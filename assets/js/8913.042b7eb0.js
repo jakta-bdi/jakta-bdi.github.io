@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjakta=self.webpackChunkjakta||[]).push([[8913],{8913:(a,k,e)=>{e.r(k)}}]);

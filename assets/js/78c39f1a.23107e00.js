@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjakta=self.webpackChunkjakta||[]).push([[9811],{27345:e=>{e.exports=JSON.parse('{"title":"All releases","items":[{"title":"JaKtA 1.1.0","permalink":"/releases/1.1.0","unlisted":false,"date":"2026-09-10T17:08:02.000Z"},{"title":"JaKtA 1.0.0","permalink":"/releases/1.0.0","unlisted":false,"date":"2026-09-07T15:29:43.000Z"}]}')}}]);

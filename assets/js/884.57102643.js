@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjakta=self.webpackChunkjakta||[]).push([[884],{90884:(e,a,k)=>{k.d(a,{createTreemapServices:()=>s.d});var s=k(16527);k(4954)}}]);

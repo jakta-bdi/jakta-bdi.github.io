@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjakta=self.webpackChunkjakta||[]).push([[3386],{34846:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/releases","page":1,"postsPerPage":2,"totalPages":1,"totalCount":2,"blogDescription":"Release notes of every JaKtA version","blogTitle":"Releases"}}')}}]);

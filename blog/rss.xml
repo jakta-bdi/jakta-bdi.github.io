@@ -4,312 +4,316 @@
         <title>JaKtA Blog</title>
         <link>https://jakta-bdi.github.io/blog</link>
         <description>JaKtA Blog</description>
-        <lastBuildDate>Tue, 13 Oct 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Nov 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[JaKtA 1.1.28 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.28</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.28</guid>
-            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.28 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.28 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="dependency-updates">Dependency updates<a href="https://jakta-bdi.github.io/blog/release-1.1.28#dependency-updates" class="hash-link" aria-label="Direct link to Dependency updates" title="Direct link to Dependency updates" translate="no">​</a></h3>
+            <title><![CDATA[Join the JaKtA community on GitHub]]></title>
+            <link>https://jakta-bdi.github.io/blog/community</link>
+            <guid>https://jakta-bdi.github.io/blog/community</guid>
+            <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[JaKtA's community lives on GitHub: ask questions, propose ideas and show what you built with JaKtA in our]]></description>
+            <content:encoded><![CDATA[<p>JaKtA's community lives on GitHub: ask questions, propose ideas and show what you built with JaKtA in our
+<a href="https://github.com/orgs/jakta-bdi/discussions" target="_blank" rel="noopener noreferrer" class="">Discussions</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="discussions">Discussions<a href="https://jakta-bdi.github.io/blog/community#discussions" class="hash-link" aria-label="Direct link to Discussions" title="Direct link to Discussions" translate="no">​</a></h2>
 <ul>
-<li class=""><strong>core-deps:</strong> update dependency com.github.ben-manes.caffeine<!-- -->:caffeine<!-- --> to v3.3.1 (<a href="https://github.com/jakta-bdi/jakta/issues/1005" target="_blank" rel="noopener noreferrer" class="">#1005</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/77bcaa8f0929a9944de0242abc4042a339fc31ff" target="_blank" rel="noopener noreferrer" class="">77bcaa8</a>)</li>
-<li class=""><strong>deps:</strong> update dependency org.danilopianini.publish-on-central to v9.2.14 (<a href="https://github.com/jakta-bdi/jakta/issues/1000" target="_blank" rel="noopener noreferrer" class="">#1000</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/7fe5269345e336a4120ec17e19ab6a88f45b0849" target="_blank" rel="noopener noreferrer" class="">7fe5269</a>)</li>
-<li class=""><strong>deps:</strong> update plugin gitsemver to v7.0.25 (<a href="https://github.com/jakta-bdi/jakta/issues/1002" target="_blank" rel="noopener noreferrer" class="">#1002</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/3fafaf69c300928a5c424401fc2217f30f50a54e" target="_blank" rel="noopener noreferrer" class="">3fafaf6</a>)</li>
-<li class=""><strong>deps:</strong> update plugin multijvmtesting to v4.5.10 (<a href="https://github.com/jakta-bdi/jakta/issues/1001" target="_blank" rel="noopener noreferrer" class="">#1001</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/4578a0348e10a2a25ca9f005d777563198681f3a" target="_blank" rel="noopener noreferrer" class="">4578a03</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
-        </item>
-        <item>
-            <title><![CDATA[JaKtA 1.1.29 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.29</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.29</guid>
-            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.29 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.29 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.29#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>prolog:</strong> make askAllTo send an AskAll performative (<a href="https://github.com/jakta-bdi/jakta/issues/975" target="_blank" rel="noopener noreferrer" class="">#975</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/73faf86c1ceae1f8d3b600e266681e2329b529eb" target="_blank" rel="noopener noreferrer" class="">73faf86</a>)</li>
-<li class=""><strong>prolog:</strong> match goal annotations like belief annotations (<a href="https://github.com/jakta-bdi/jakta/issues/976" target="_blank" rel="noopener noreferrer" class="">#976</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/fdf66a91e478b072bd77c51fd2957b3ffcb203cf" target="_blank" rel="noopener noreferrer" class="">fdf66a9</a>), closes <a href="https://github.com/tuProlog/2p-kt/issues/926" target="_blank" rel="noopener noreferrer" class="">tuProlog/2p-kt#926</a></li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
-        </item>
-        <item>
-            <title><![CDATA[JaKtA 1.1.27 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.27</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.27</guid>
-            <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.27 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.27 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="dependency-updates">Dependency updates<a href="https://jakta-bdi.github.io/blog/release-1.1.27#dependency-updates" class="hash-link" aria-label="Direct link to Dependency updates" title="Direct link to Dependency updates" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>core-deps:</strong> update kotlin monorepo to v2.4.21 (<a href="https://github.com/jakta-bdi/jakta/issues/998" target="_blank" rel="noopener noreferrer" class="">#998</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/272ba61abb2d7047d606c25f57a9c3357bbe34ab" target="_blank" rel="noopener noreferrer" class="">272ba61</a>)</li>
-<li class=""><strong>deps:</strong> update dependency org.danilopianini.publish-on-central to v9.2.13 (<a href="https://github.com/jakta-bdi/jakta/issues/994" target="_blank" rel="noopener noreferrer" class="">#994</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/95124eb23023ab09c6e1cc99a1c0201025a1d080" target="_blank" rel="noopener noreferrer" class="">95124eb</a>)</li>
-<li class=""><strong>deps:</strong> update gradle to v9.8.1 (<a href="https://github.com/jakta-bdi/jakta/issues/993" target="_blank" rel="noopener noreferrer" class="">#993</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/ab9c4ffd8f75b2cbb4e0e6f36c891e808b519f3a" target="_blank" rel="noopener noreferrer" class="">ab9c4ff</a>)</li>
-<li class=""><strong>deps:</strong> update plugin kotlin-qa to v1.10.1 (<a href="https://github.com/jakta-bdi/jakta/issues/996" target="_blank" rel="noopener noreferrer" class="">#996</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/aa63b89d7ea017fdeeba786008254578af3fff45" target="_blank" rel="noopener noreferrer" class="">aa63b89</a>)</li>
-<li class=""><strong>deps:</strong> update plugin multijvmtesting to v4.5.8 (<a href="https://github.com/jakta-bdi/jakta/issues/991" target="_blank" rel="noopener noreferrer" class="">#991</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/de0a63026a6ee9ae7fd5f8b71150f9b0162059cc" target="_blank" rel="noopener noreferrer" class="">de0a630</a>)</li>
-<li class=""><strong>deps:</strong> update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.26 (<a href="https://github.com/jakta-bdi/jakta/issues/995" target="_blank" rel="noopener noreferrer" class="">#995</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/d2837180e13379cb7c5363d5e385bae3a810cc9f" target="_blank" rel="noopener noreferrer" class="">d283718</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
-        </item>
-        <item>
-            <title><![CDATA[JaKtA 1.1.25 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.25</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.25</guid>
-            <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.25 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.25 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.25#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>api:</strong> let agents run on dispatchers that do not implement Delay (<a href="https://github.com/jakta-bdi/jakta/issues/969" target="_blank" rel="noopener noreferrer" class="">#969</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/58c625396ab0a3950404c671589c0a6b5b29289e" target="_blank" rel="noopener noreferrer" class="">58c6253</a>)</li>
-<li class=""><strong>core:</strong> copy the beliefs in BeliefBase.snapshot() and let JS tests fail (<a href="https://github.com/jakta-bdi/jakta/issues/968" target="_blank" rel="noopener noreferrer" class="">#968</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/49043d5a76ab6d8cc32fd0a5e139b3af7c711f82" target="_blank" rel="noopener noreferrer" class="">49043d5</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
-        </item>
-        <item>
-            <title><![CDATA[JaKtA 1.1.26 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.26</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.26</guid>
-            <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.26 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.26 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.26#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>prolog-incarnation:</strong> classic solver bundle issue and interactive Compose Multiplatform examples (blocksworld, tic-tac-toe, cleaning robots) and console BDI demos (<a href="https://github.com/jakta-bdi/jakta/issues/951" target="_blank" rel="noopener noreferrer" class="">#951</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/c6279fbcc5b4a6ba7abe80a658169f72bdbc2270" target="_blank" rel="noopener noreferrer" class="">c6279fb</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
-        </item>
-        <item>
-            <title><![CDATA[JaKtA 1.1.23 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.23</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.23</guid>
-            <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.23 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.23 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.23#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>core-deps:</strong> update plugin kover to v0.9.11 (<a href="https://github.com/jakta-bdi/jakta/issues/966" target="_blank" rel="noopener noreferrer" class="">#966</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/74d12d6e510bff8907e9b9c2034e0e33ec1f25e5" target="_blank" rel="noopener noreferrer" class="">74d12d6</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
-        </item>
-        <item>
-            <title><![CDATA[JaKtA 1.1.24 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.24</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.24</guid>
-            <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.24 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.24 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.24#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update kotlin to v2.4.20 and tuprolog to v2.0.9 (<a href="https://github.com/jakta-bdi/jakta/issues/959" target="_blank" rel="noopener noreferrer" class="">#959</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/250f6ef4c9173ec1c5ef1154d231d854209a6d99" target="_blank" rel="noopener noreferrer" class="">250f6ef</a>)</li>
-<li class=""><strong>deps:</strong> update plugin npm-publish to v4.1.11 (<a href="https://github.com/jakta-bdi/jakta/issues/896" target="_blank" rel="noopener noreferrer" class="">#896</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/9e535b285b3a3bd70776f622150e0deb401ab4e4" target="_blank" rel="noopener noreferrer" class="">9e535b2</a>)</li>
+<li class=""><strong><a href="https://github.com/orgs/jakta-bdi/discussions/categories/q-a" target="_blank" rel="noopener noreferrer" class="">Q&amp;A</a></strong>: stuck on something? Ask here, the
+maintainers and other users will help.</li>
+<li class=""><strong><a href="https://github.com/orgs/jakta-bdi/discussions/categories/ideas" target="_blank" rel="noopener noreferrer" class="">Ideas</a></strong>: a feature you would like in JaKtA.</li>
+<li class=""><strong><a href="https://github.com/orgs/jakta-bdi/discussions/categories/show-and-tell" target="_blank" rel="noopener noreferrer" class="">Show and tell</a></strong>: an agent system,
+a simulation or a project built with JaKtA.</li>
+<li class=""><strong><a href="https://github.com/orgs/jakta-bdi/discussions/categories/announcements" target="_blank" rel="noopener noreferrer" class="">Announcements</a></strong>: updates from the
+maintainers.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="build-and-continuous-integration">Build and continuous integration<a href="https://jakta-bdi.github.io/blog/release-1.1.24#build-and-continuous-integration" class="hash-link" aria-label="Direct link to Build and continuous integration" title="Direct link to Build and continuous integration" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="issues-and-contributions">Issues and contributions<a href="https://jakta-bdi.github.io/blog/community#issues-and-contributions" class="hash-link" aria-label="Direct link to Issues and contributions" title="Direct link to Issues and contributions" translate="no">​</a></h2>
+<p>Found a bug, or something in the documentation that is wrong or unclear? Open an
+<a href="https://github.com/jakta-bdi/jakta/issues" target="_blank" rel="noopener noreferrer" class="">issue</a>. Pull requests are welcome too: the code, the examples and this
+website all live in the <a href="https://github.com/jakta-bdi/jakta" target="_blank" rel="noopener noreferrer" class="">jakta repository</a>.</p>]]></content:encoded>
+            <category>Community</category>
+        </item>
+        <item>
+            <title><![CDATA[Jason-like Kotlin Agents: where JaKtA comes from]]></title>
+            <link>https://jakta-bdi.github.io/blog/jakta-and-jason</link>
+            <guid>https://jakta-bdi.github.io/blog/jakta-and-jason</guid>
+            <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[JaKtA started as a new implementation of Jason, the interpreter for an extended]]></description>
+            <content:encoded><![CDATA[<p>JaKtA started as a new implementation of <a href="https://jason-lang.github.io/" target="_blank" rel="noopener noreferrer" class="">Jason</a>, the interpreter for an extended
+version of <a href="https://link.springer.com/chapter/10.1007/BFb0031845" target="_blank" rel="noopener noreferrer" class="">AgentSpeak(L)</a>, written in Kotlin.
+The name was originally an acronym for <strong>Jason-like Kotlin Agents</strong>. With 1.x it no longer is.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="jakta-0x-jason-like-agents-in-kotlin">JaKtA 0.x: Jason-like agents in Kotlin<a href="https://jakta-bdi.github.io/blog/jakta-and-jason#jakta-0x-jason-like-agents-in-kotlin" class="hash-link" aria-label="Direct link to JaKtA 0.x: Jason-like agents in Kotlin" title="Direct link to JaKtA 0.x: Jason-like agents in Kotlin" translate="no">​</a></h2>
+<p><a class="" href="https://jakta-bdi.github.io/docs/jakta-0x">JaKtA 0.x</a> brought AgentSpeak-style agents into Kotlin, as an internal DSL instead of a separate
+language. It followed Jason closely: beliefs and goals were always Prolog terms, goals were either achievement or
+test goals, and agents acted on an environment through actions. The aim was to explore paradigm blending:
+writing BDI agents with the same syntax and tools as ordinary object-oriented and functional Kotlin code.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="jakta-1x-moving-away-from-jason">JaKtA 1.x: moving away from Jason<a href="https://jakta-bdi.github.io/blog/jakta-and-jason#jakta-1x-moving-away-from-jason" class="hash-link" aria-label="Direct link to JaKtA 1.x: moving away from Jason" title="Direct link to JaKtA 1.x: moving away from Jason" translate="no">​</a></h2>
+<p><a class="" href="https://jakta-bdi.github.io/blog/jakta-1-0">JaKtA 1.x</a> keeps the BDI model, but is no longer an AgentSpeak(L) implementation:</p>
 <ul>
-<li class="">release only for runtime dependency updates (<a href="https://github.com/jakta-bdi/jakta/issues/956" target="_blank" rel="noopener noreferrer" class="">#956</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/6418c8f787d6519cd38ce50c1e9442550d9a2e72" target="_blank" rel="noopener noreferrer" class="">6418c8f</a>)</li>
+<li class=""><strong>Knowledge representation is generic.</strong> Beliefs and goals are not tied to Prolog terms: an
+<a class="" href="https://jakta-bdi.github.io/docs/explanation/incarnations">incarnation</a> chooses them, and also defines how plan triggers and guards match.</li>
+<li class=""><strong>Plan bodies are Kotlin.</strong> They are ordinary <code>suspend</code> functions instead of AgentSpeak body formulas,
+and test goals are replaced by guards.</li>
+<li class=""><strong>The engine is coroutine-based.</strong> Each intention is a coroutine, see the
+<a class="" href="https://jakta-bdi.github.io/docs/explanation/execution-model">execution model</a>.</li>
+<li class=""><strong>Agents live in nodes</strong>, not in a Jason-style environment, and act through <a class="" href="https://jakta-bdi.github.io/docs/explanation/interaction/acting">skills</a>
+instead of environment actions.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-maintenance">General maintenance<a href="https://jakta-bdi.github.io/blog/release-1.1.24#general-maintenance" class="hash-link" aria-label="Direct link to General maintenance" title="Direct link to General maintenance" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>codacy:</strong> exclude test sources from detekt analysis (<a href="https://github.com/jakta-bdi/jakta/issues/957" target="_blank" rel="noopener noreferrer" class="">#957</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/8c534205c07d543e5a378f4fc3b27f7fc008ec4f" target="_blank" rel="noopener noreferrer" class="">8c53420</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="jason-is-still-an-influence">Jason is still an influence<a href="https://jakta-bdi.github.io/blog/jakta-and-jason#jason-is-still-an-influence" class="hash-link" aria-label="Direct link to Jason is still an influence" title="Direct link to Jason is still an influence" translate="no">​</a></h2>
+<p>The <a class="" href="https://jakta-bdi.github.io/docs/explanation/incarnations/prolog">Prolog incarnation</a> supports belief sources and KQML messaging in the
+style of Jason, which makes <a class="" href="https://jakta-bdi.github.io/docs/how-to/prolog/port-jason">porting Jason programs</a> straightforward
+(see the <a class="" href="https://jakta-bdi.github.io/docs/showcase/blocksworld">Blocks World</a> showcase). But it is one incarnation among others, and today
+JaKtA is just a name rather than an acronym.</p>]]></content:encoded>
+            <category>Community</category>
         </item>
         <item>
-            <title><![CDATA[JaKtA 1.1.21 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.21</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.21</guid>
-            <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.21 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.21 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.21#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+            <title><![CDATA[JaKtA 1.1.30 released]]></title>
+            <link>https://jakta-bdi.github.io/blog/release-1.1.30</link>
+            <guid>https://jakta-bdi.github.io/blog/release-1.1.30</guid>
+            <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[JaKtA 1.1.30 is out.]]></description>
+            <content:encoded><![CDATA[<p>JaKtA 1.1.30 is out.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="dependency-updates">Dependency updates<a href="https://jakta-bdi.github.io/blog/release-1.1.30#dependency-updates" class="hash-link" aria-label="Direct link to Dependency updates" title="Direct link to Dependency updates" translate="no">​</a></h3>
 <ul>
-<li class=""><strong>core-deps:</strong> update plugin kover to v0.9.10 (<a href="https://github.com/jakta-bdi/jakta/issues/964" target="_blank" rel="noopener noreferrer" class="">#964</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/bd9217c39687fbc963e85b1c011c371d8c2c3883" target="_blank" rel="noopener noreferrer" class="">bd9217c</a>)</li>
+<li class=""><strong>deps:</strong> update dependency @iconify/react to v6.0.3 (<a href="https://github.com/jakta-bdi/jakta/issues/1021" target="_blank" rel="noopener noreferrer" class="">#1021</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/d7c5711cae49f84dfc704691215803757bfebf92" target="_blank" rel="noopener noreferrer" class="">d7c5711</a>)</li>
+<li class=""><strong>deps:</strong> update dependency @iconify/react to v6.0.4 (<a href="https://github.com/jakta-bdi/jakta/issues/1030" target="_blank" rel="noopener noreferrer" class="">#1030</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/b3677578fb21dcc9341af52d9c40db65e3b318a7" target="_blank" rel="noopener noreferrer" class="">b367757</a>)</li>
+<li class=""><strong>deps:</strong> update dependency org.danilopianini.publish-on-central to v9.2.15 (<a href="https://github.com/jakta-bdi/jakta/issues/1013" target="_blank" rel="noopener noreferrer" class="">#1013</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/30d74e96f4f44f71d9d9902f3bee5e5b318f5c78" target="_blank" rel="noopener noreferrer" class="">30d74e9</a>)</li>
+<li class=""><strong>deps:</strong> update gradle to v9.8.2 (<a href="https://github.com/jakta-bdi/jakta/issues/1014" target="_blank" rel="noopener noreferrer" class="">#1014</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/585a3a875c3a1a50c4afad067f0125321f6f96e9" target="_blank" rel="noopener noreferrer" class="">585a3a8</a>)</li>
+<li class=""><strong>deps:</strong> update node.js to 24.22 (<a href="https://github.com/jakta-bdi/jakta/issues/1009" target="_blank" rel="noopener noreferrer" class="">#1009</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/980295efbe3caa876aeeee76b2e05f6b78051d8c" target="_blank" rel="noopener noreferrer" class="">980295e</a>)</li>
+<li class=""><strong>deps:</strong> update node.js to v26 (<a href="https://github.com/jakta-bdi/jakta/issues/1029" target="_blank" rel="noopener noreferrer" class="">#1029</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/33086d3973dd8968083234b798ce075253a9cbca" target="_blank" rel="noopener noreferrer" class="">33086d3</a>)</li>
+<li class=""><strong>deps:</strong> update plugin com.gradle.develocity to v4.6.1 (<a href="https://github.com/jakta-bdi/jakta/issues/1015" target="_blank" rel="noopener noreferrer" class="">#1015</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/0c8205937153d7c75bdee7927993b5c87a674ff8" target="_blank" rel="noopener noreferrer" class="">0c82059</a>)</li>
+<li class=""><strong>deps:</strong> update plugin gitsemver to v7.1.0 (<a href="https://github.com/jakta-bdi/jakta/issues/1016" target="_blank" rel="noopener noreferrer" class="">#1016</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/19ce8dd3b8609ce6c8eacef01058862c350884c3" target="_blank" rel="noopener noreferrer" class="">19ce8dd</a>)</li>
+<li class=""><strong>deps:</strong> update plugin gitsemver to v7.2.0 (<a href="https://github.com/jakta-bdi/jakta/issues/1017" target="_blank" rel="noopener noreferrer" class="">#1017</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/f775bf08938601ab6a76716e3868d1278720741e" target="_blank" rel="noopener noreferrer" class="">f775bf0</a>)</li>
+<li class=""><strong>deps:</strong> update plugin gitsemver to v7.3.0 (<a href="https://github.com/jakta-bdi/jakta/issues/1019" target="_blank" rel="noopener noreferrer" class="">#1019</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/a369e2fb501edb844d8782bdcc4527a490b96087" target="_blank" rel="noopener noreferrer" class="">a369e2f</a>)</li>
+<li class=""><strong>deps:</strong> update plugin kotlin-qa to v1.10.2 (<a href="https://github.com/jakta-bdi/jakta/issues/1012" target="_blank" rel="noopener noreferrer" class="">#1012</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/96195ce467569561a444998cc29312415934ee3c" target="_blank" rel="noopener noreferrer" class="">96195ce</a>)</li>
+<li class=""><strong>deps:</strong> update plugin multijvmtesting to v4.5.11 (<a href="https://github.com/jakta-bdi/jakta/issues/1018" target="_blank" rel="noopener noreferrer" class="">#1018</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/b8753121d4e124456c52bca050e254d7ab264593" target="_blank" rel="noopener noreferrer" class="">b875312</a>)</li>
+<li class=""><strong>deps:</strong> update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.27 (<a href="https://github.com/jakta-bdi/jakta/issues/1003" target="_blank" rel="noopener noreferrer" class="">#1003</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/ea59c6d6bc55728ac2db3bef7cafd602404a2722" target="_blank" rel="noopener noreferrer" class="">ea59c6d</a>)</li>
+<li class=""><strong>deps:</strong> update react monorepo to v19.3.1 (<a href="https://github.com/jakta-bdi/jakta/issues/1010" target="_blank" rel="noopener noreferrer" class="">#1010</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/81e7a186f811703b563ece1b84f72eacc1ff4cb3" target="_blank" rel="noopener noreferrer" class="">81e7a18</a>)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.30#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>alchemist:</strong> sub-second delays, timeouts in simulated time, exports without a property (<a href="https://github.com/jakta-bdi/jakta/issues/978" target="_blank" rel="noopener noreferrer" class="">#978</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/1dfe40abcd98b3591c3a2805b1866c341f9d75f1" target="_blank" rel="noopener noreferrer" class="">1dfe40a</a>)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="build-and-continuous-integration">Build and continuous integration<a href="https://jakta-bdi.github.io/blog/release-1.1.30#build-and-continuous-integration" class="hash-link" aria-label="Direct link to Build and continuous integration" title="Direct link to Build and continuous integration" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps:</strong> update actions/setup-node action to v7.1.0 (<a href="https://github.com/jakta-bdi/jakta/issues/997" target="_blank" rel="noopener noreferrer" class="">#997</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/74d1bb1aa5fb37de83bc7e786d33e9df65211988" target="_blank" rel="noopener noreferrer" class="">74d1bb1</a>)</li>
+<li class=""><strong>deps:</strong> update danysk/build-check-deploy-gradle-action action to v4.0.49 (<a href="https://github.com/jakta-bdi/jakta/issues/1007" target="_blank" rel="noopener noreferrer" class="">#1007</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/da0a3e96bf3e0191ad2ee9af39cfbb0a5deb5f39" target="_blank" rel="noopener noreferrer" class="">da0a3e9</a>)</li>
+<li class=""><strong>deps:</strong> update danysk/build-check-deploy-gradle-action action to v4.0.50 (<a href="https://github.com/jakta-bdi/jakta/issues/1028" target="_blank" rel="noopener noreferrer" class="">#1028</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/a49da225746b675bd77ea7319bb5a7e8072ce0eb" target="_blank" rel="noopener noreferrer" class="">a49da22</a>)</li>
+<li class=""><strong>deps:</strong> update danysk/build-check-deploy-gradle-action action to v4.0.51 (<a href="https://github.com/jakta-bdi/jakta/issues/1035" target="_blank" rel="noopener noreferrer" class="">#1035</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/c08b18eeba605d6e70ec9f68ef8c25e449840dbb" target="_blank" rel="noopener noreferrer" class="">c08b18e</a>)</li>
+<li class=""><strong>deps:</strong> update dependency node to v26 (<a href="https://github.com/jakta-bdi/jakta/issues/1027" target="_blank" rel="noopener noreferrer" class="">#1027</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/62776f7f476d6837af84e0f844c028376b620955" target="_blank" rel="noopener noreferrer" class="">62776f7</a>)</li>
+<li class="">point every module's POM to the jakta-bdi/jakta monorepo (<a href="https://github.com/jakta-bdi/jakta/issues/1008" target="_blank" rel="noopener noreferrer" class="">#1008</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/081c9a1683408ecea30ac8bc3e28b9505e16c701" target="_blank" rel="noopener noreferrer" class="">081c9a1</a>)</li>
 </ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
+            <category>jakta</category>
+            <category>release</category>
         </item>
         <item>
-            <title><![CDATA[JaKtA 1.1.22 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.22</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.22</guid>
-            <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.22 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.22 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.22#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update danysk/build-check-deploy-gradle-action action to v4.0.48 (<a href="https://github.com/jakta-bdi/jakta/issues/965" target="_blank" rel="noopener noreferrer" class="">#965</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/f4b3d4a4bd8afca5ace815701705f6ca029f9310" target="_blank" rel="noopener noreferrer" class="">f4b3d4a</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
-        </item>
-        <item>
-            <title><![CDATA[JaKtA 1.1.20 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.20</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.20</guid>
-            <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.20 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.20 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.20#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update plugin kotlin-qa to v1.10.0 (<a href="https://github.com/jakta-bdi/jakta/issues/963" target="_blank" rel="noopener noreferrer" class="">#963</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/a6bb6626b8c4cef2afe56eb50b01b2d1d74e5202" target="_blank" rel="noopener noreferrer" class="">a6bb662</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
-        </item>
-        <item>
-            <title><![CDATA[JaKtA 1.1.16 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.16</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.16</guid>
+            <title><![CDATA[JaKtA 1.0: a redesign]]></title>
+            <link>https://jakta-bdi.github.io/blog/jakta-1-0</link>
+            <guid>https://jakta-bdi.github.io/blog/jakta-1-0</guid>
             <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.16 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.16 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.16#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+            <description><![CDATA[JaKtA 1.0 is a rewrite from the ground up. The BDI model is the same, but the engine, the DSL and the]]></description>
+            <content:encoded><![CDATA[<p>JaKtA 1.0 is a rewrite from the ground up. The BDI model is the same, but the engine, the DSL and the
+module structure are new — and multiplatform.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-a-new-engine">Why a new engine<a href="https://jakta-bdi.github.io/blog/jakta-1-0#why-a-new-engine" class="hash-link" aria-label="Direct link to Why a new engine" title="Direct link to Why a new engine" translate="no">​</a></h2>
+<p>JaKtA has its own BDI execution engine instead of reusing an existing one, because of two design goals:</p>
+<ol>
+<li class="">to explore paradigm blending of agent-oriented programming, and BDI in particular, with mainstream programming
+languages, and</li>
+<li class="">to make every aspect of running a BDI system modular and pluggable: reasoning, message passing, concurrency
+models, and the like.</li>
+</ol>
+<p>The DSL is kept apart from the engine, since it is only one possible syntax for specifying BDI multi-agent systems:
+other languages could be plugged on top of the same engine.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-changed">What changed<a href="https://jakta-bdi.github.io/blog/jakta-1-0#what-changed" class="hash-link" aria-label="Direct link to What changed" title="Direct link to What changed" translate="no">​</a></h2>
 <ul>
-<li class=""><strong>deps:</strong> update plugin kotlin-qa to v1.9.3 (<a href="https://github.com/jakta-bdi/jakta/issues/948" target="_blank" rel="noopener noreferrer" class="">#948</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/7f579fe1ca78eb2c67d4799df5019656b534d04e" target="_blank" rel="noopener noreferrer" class="">7f579fe</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
+<li class=""><strong>Kotlin Multiplatform.</strong> The core libraries run on the JVM, in JavaScript (browser and Node.js, also on npm as
+<code>@jakta/*</code>) and natively.</li>
+<li class=""><strong>A coroutine engine.</strong> Each intention is a coroutine and plan bodies are ordinary <code>suspend</code> Kotlin code:
+call functions, <code>delay</code>, wait for events, and return results from sub-goals.</li>
+<li class=""><strong>Pluggable knowledge representation.</strong> The engine is generic over beliefs and goals. An
+<a class="" href="https://jakta-bdi.github.io/docs/explanation/incarnations">incarnation</a> fixes them: Prolog terms through <a href="https://tuprolog.github.io/2p-kt/" target="_blank" rel="noopener noreferrer" class="">2P-Kt</a>,
+plain strings, or your own Kotlin types.</li>
+<li class=""><strong>Skills instead of actions.</strong> What an agent can do is a Kotlin object given to its plans through
+<a class="" href="https://jakta-bdi.github.io/docs/explanation/interaction/acting">context parameters</a>, checked by the compiler.</li>
+<li class=""><strong>Nodes instead of environments.</strong> Agents live in <a class="" href="https://jakta-bdi.github.io/docs/explanation/nodes">nodes</a> that deliver perceptions and messages,
+with Jason-style <a class="" href="https://jakta-bdi.github.io/docs/explanation/interaction/communication">KQML messaging</a> in the Prolog incarnation.</li>
+<li class=""><strong>Simulation.</strong> The <a class="" href="https://jakta-bdi.github.io/docs/how-to/alchemist">Alchemist incarnation</a> runs JaKtA agents in simulated time.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="before-and-after">Before and after<a href="https://jakta-bdi.github.io/blog/jakta-1-0#before-and-after" class="hash-link" aria-label="Direct link to Before and after" title="Direct link to Before and after" translate="no">​</a></h2>
+<div class="language-kotlin codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-kotlin codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">// JaKtA 0.x</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">mas </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token function" style="color:#d73a49">agent</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string-literal singleline string" style="color:#e3116c">"myAgent"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">        goals </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">achieve</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string-literal singleline string" style="color:#e3116c">"sayHello"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">        plans </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token operator" style="color:#393A34">+</span><span class="token function" style="color:#d73a49">achieve</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string-literal singleline string" style="color:#e3116c">"sayHello"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> then </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">execute</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string-literal singleline string" style="color:#e3116c">"print"</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string-literal singleline string" style="color:#e3116c">"Hello, World!"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">start</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// JaKtA 1.x (Prolog incarnation)</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">val</span><span class="token plain"> helloWorldAgent </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> agent</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">PrologBelief</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> PrologGoal</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> Any</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    embodiedAs </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">Any</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    hasInitialGoals </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">!</span><span class="token plain">initialGoal </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> Atom</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">of</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string-literal singleline string" style="color:#e3116c">"sayHello"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    hasPlanLibrary </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">        prologPlan </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            adding</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">goal</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> matchingGoal </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> Atom</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">of</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string-literal singleline string" style="color:#e3116c">"sayHello"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"> triggers </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">                agent</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string-literal singleline string" style="color:#e3116c">"Hello, world!"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">fun</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">main</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> Unit </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> runBlocking </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token function" style="color:#d73a49">mas</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">NodeBuilders</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">baseNode</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">        node </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">withAgents</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">helloWorldAgent</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">runLocally</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="getting-started">Getting started<a href="https://jakta-bdi.github.io/blog/jakta-1-0#getting-started" class="hash-link" aria-label="Direct link to Getting started" title="Direct link to Getting started" translate="no">​</a></h2>
+<p>The <a class="" href="https://jakta-bdi.github.io/docs/intro">documentation</a> has been rewritten for 1.x, and the <a class="" href="https://jakta-bdi.github.io/docs/showcase/more-examples">examples</a>
+now live in the main repository. JaKtA 0.x is deprecated; if you are reading one of our earlier papers,
+the <a class="" href="https://jakta-bdi.github.io/docs/jakta-0x">JaKtA 0.x page</a> collects the old resources. For how JaKtA moved away from Jason, read
+<a class="" href="https://jakta-bdi.github.io/blog/jakta-and-jason">Jason-like Kotlin Agents</a>.</p>]]></content:encoded>
+            <category>Community</category>
         </item>
         <item>
-            <title><![CDATA[JaKtA 1.1.17 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.17</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.17</guid>
-            <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.17 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.17 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.17#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.1.25 (<a href="https://github.com/jakta-bdi/jakta/issues/952" target="_blank" rel="noopener noreferrer" class="">#952</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/d5f62f0351db5004b524f54fcbd91b03480a153a" target="_blank" rel="noopener noreferrer" class="">d5f62f0</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
+            <title><![CDATA[New Publication: JaKtA: Closing the Tooling Gap for Mainstream BDI]]></title>
+            <link>https://jakta-bdi.github.io/blog/paper-baiardi2026</link>
+            <guid>https://jakta-bdi.github.io/blog/paper-baiardi2026</guid>
+            <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new paper related to JaKtA has been published at Agents and Multi-Agent Systems Development: Platforms, Toolkits, Technologies (2026).]]></description>
+            <content:encoded><![CDATA[<p>A new paper related to JaKtA has been published at Agents and Multi-Agent Systems Development: Platforms, Toolkits, Technologies (2026).</p>
+<p><strong>Authors</strong>: Martina Baiardi, Samuele Burattini, Giovanni Ciatto, Danilo Pianini
+<strong>Venue</strong>: Agents and Multi-Agent Systems Development: Platforms, Toolkits, Technologies (2026)
+<strong>Link</strong>: <a href="https://doi.org/10.1007/978-3-032-01082-7_6" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1007/978-3-032-01082-7_6</a></p>]]></content:encoded>
+            <category>Papers</category>
         </item>
         <item>
-            <title><![CDATA[JaKtA 1.1.18 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.18</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.18</guid>
-            <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.18 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.18 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.18#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update gradle to v9.8.0 (<a href="https://github.com/jakta-bdi/jakta/issues/949" target="_blank" rel="noopener noreferrer" class="">#949</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/2c79e2b7b4792af2f0fd04d3bad38f13a6422808" target="_blank" rel="noopener noreferrer" class="">2c79e2b</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
+            <title><![CDATA[New Publication: Testing BDI-based multi-agent systems using discrete event simulation]]></title>
+            <link>https://jakta-bdi.github.io/blog/paper-dblp-journals-aamas-baiardibcp26</link>
+            <guid>https://jakta-bdi.github.io/blog/paper-dblp-journals-aamas-baiardibcp26</guid>
+            <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new paper related to JaKtA has been published at Auton. Agents Multi Agent Syst. (2026).]]></description>
+            <content:encoded><![CDATA[<p>A new paper related to JaKtA has been published at Auton. Agents Multi Agent Syst. (2026).</p>
+<p><strong>Authors</strong>: Martina Baiardi, Samuele Burattini, Giovanni Ciatto, Danilo Pianini
+<strong>Venue</strong>: Auton. Agents Multi Agent Syst. (2026)
+<strong>Link</strong>: <a href="https://doi.org/10.1007/S10458-026-09744-W" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1007/S10458-026-09744-W</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="abstract">Abstract<a href="https://jakta-bdi.github.io/blog/paper-dblp-journals-aamas-baiardibcp26#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract" translate="no">​</a></h3>
+<p>Multi-agent systems are designed to deal with open, distributed systems with unpredictable dynamics, which makes them inherently hard to test. The value of using simulation for this purpose is recognized in the literature, although achieving sufficient fidelity (i.e., the degree of similarity between the simulation and the real-world system) remains a challenging task. This is exacerbated when dealing with cognitive agent models, such as the Belief Desire Intention (BDI) model, where the agent codebase is not suitable to run unchanged in simulation environments, thus increasing the reality gap between the deployed and simulated systems. We argue that BDI developers should be able to test in simulation the same specification that will be later deployed, with no surrogate representations. Thus, in this paper, we discuss how the control flow of BDI agents can be mapped onto a Discrete Event Simulation (DES), showing that such integration is possible at different degrees of granularity. We substantiate our claims by producing an open-source prototype integration between two pre-existing tools (JaKtA and Alchemist), showing that it is possible to produce a simulation-based testing environment for distributed BDI agents, and that different granularities in mapping BDI agents over DESs may lead to different degrees of fidelity.</p>]]></content:encoded>
+            <category>Papers</category>
         </item>
         <item>
-            <title><![CDATA[JaKtA 1.1.19 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.19</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.19</guid>
-            <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.19 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.19 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.19#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update plugin com.gradle.develocity to v4.6.0 (<a href="https://github.com/jakta-bdi/jakta/issues/950" target="_blank" rel="noopener noreferrer" class="">#950</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/03ee8393a066acc887a2e96a3ca584a460a0fb6d" target="_blank" rel="noopener noreferrer" class="">03ee839</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
+            <title><![CDATA[New Publication: Cognitive Agents in the Field: A Hybrid Approach Between Agent-Oriented and Aggregate Computation]]></title>
+            <link>https://jakta-bdi.github.io/blog/paper-dblp-conf-acsos-baiardi25</link>
+            <guid>https://jakta-bdi.github.io/blog/paper-dblp-conf-acsos-baiardi25</guid>
+            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new paper related to JaKtA has been published at IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2025 - Companion, Tokyo, Japan, September 29 - Oct. 3, 2025 (2025).]]></description>
+            <content:encoded><![CDATA[<p>A new paper related to JaKtA has been published at IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2025 - Companion, Tokyo, Japan, September 29 - Oct. 3, 2025 (2025).</p>
+<p><strong>Authors</strong>: Martina Baiardi
+<strong>Venue</strong>: IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2025 - Companion, Tokyo, Japan, September 29 - Oct. 3, 2025 (2025)
+<strong>Link</strong>: <a href="https://doi.org/10.1109/ACSOS-C66519.2025.00050" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1109/ACSOS-C66519.2025.00050</a></p>]]></content:encoded>
+            <category>Papers</category>
         </item>
         <item>
-            <title><![CDATA[JaKtA 1.1.15 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.15</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.15</guid>
-            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.15 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.15 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.15#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update dependency org.danilopianini.publish-on-central to v9.2.12 (<a href="https://github.com/jakta-bdi/jakta/issues/947" target="_blank" rel="noopener noreferrer" class="">#947</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/3c8a9836b2b4fe774870689190c17e9e7d328b7e" target="_blank" rel="noopener noreferrer" class="">3c8a983</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
+            <title><![CDATA[New Publication: Exploiting GenAI for Plan Generation in BDI Agents]]></title>
+            <link>https://jakta-bdi.github.io/blog/paper-dblp-conf-ecai-ciattoabbbr25</link>
+            <guid>https://jakta-bdi.github.io/blog/paper-dblp-conf-ecai-ciattoabbbr25</guid>
+            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new paper related to JaKtA has been published at ECAI 2025 - 28th European Conference on Artificial Intelligence, 25-30 October 2025, Bologna, Italy - Including 14th Conference on Prestigious Applications of Intelligent Systems (PAIS 2025) (2025).]]></description>
+            <content:encoded><![CDATA[<p>A new paper related to JaKtA has been published at ECAI 2025 - 28th European Conference on Artificial Intelligence, 25-30 October 2025, Bologna, Italy - Including 14th Conference on Prestigious Applications of Intelligent Systems (PAIS 2025) (2025).</p>
+<p><strong>Authors</strong>: Giovanni Ciatto, Gianluca Aguzzi, Riccardo Battistini, Martina Baiardi, Samuele Burattini, Alessandro Ricci
+<strong>Venue</strong>: ECAI 2025 - 28th European Conference on Artificial Intelligence, 25-30 October 2025, Bologna, Italy - Including 14th Conference on Prestigious Applications of Intelligent Systems (PAIS 2025) (2025)
+<strong>Link</strong>: <a href="https://doi.org/10.3233/FAIA251223" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.3233/FAIA251223</a></p>]]></content:encoded>
+            <category>Papers</category>
         </item>
         <item>
-            <title><![CDATA[JaKtA 1.1.14 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.14</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.14</guid>
-            <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.14 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.14 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.14#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update citation-js monorepo to ^0.9.0 (<a href="https://github.com/jakta-bdi/jakta/issues/944" target="_blank" rel="noopener noreferrer" class="">#944</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/b58a4990e6a5042843904fed0bea5e25d7310610" target="_blank" rel="noopener noreferrer" class="">b58a499</a>)</li>
-<li class=""><strong>deps:</strong> update dependency com.github.ben-manes.caffeine<!-- -->:caffeine<!-- --> to v3.3.0 (<a href="https://github.com/jakta-bdi/jakta/issues/945" target="_blank" rel="noopener noreferrer" class="">#945</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/7f7e899cc9ade6d370ff2092a8e677784b55d334" target="_blank" rel="noopener noreferrer" class="">7f7e899</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
+            <title><![CDATA[New Publication: The Gap Between BDI Agents and Semantic Hypermedia and What We Can Do About It]]></title>
+            <link>https://jakta-bdi.github.io/blog/paper-dblp-conf-hyperagents-burattinibcp25</link>
+            <guid>https://jakta-bdi.github.io/blog/paper-dblp-conf-hyperagents-burattinibcp25</guid>
+            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new paper related to JaKtA has been published at Proceedings of the Second International Workshop on Hypermedia Multi-Agent Systems (HyperAgents 2025) co-located with 28th European Conference on Artificial Intelligence (ECAI 2025), Bologna, Italy, October 26, 2025 (2025).]]></description>
+            <content:encoded><![CDATA[<p>A new paper related to JaKtA has been published at Proceedings of the Second International Workshop on Hypermedia Multi-Agent Systems (HyperAgents 2025) co-located with 28th European Conference on Artificial Intelligence (ECAI 2025), Bologna, Italy, October 26, 2025 (2025).</p>
+<p><strong>Authors</strong>: Samuele Burattini, Martina Baiardi, Giovanni Ciatto, Danilo Pianini
+<strong>Venue</strong>: Proceedings of the Second International Workshop on Hypermedia Multi-Agent Systems (HyperAgents 2025) co-located with 28th European Conference on Artificial Intelligence (ECAI 2025), Bologna, Italy, October 26, 2025 (2025)
+<strong>Link</strong>: <a href="https://ceur-ws.org/Vol-4084/short3.pdf" target="_blank" rel="noopener noreferrer" class="">https://ceur-ws.org/Vol-4084/short3.pdf</a></p>]]></content:encoded>
+            <category>Papers</category>
         </item>
         <item>
-            <title><![CDATA[JaKtA 1.1.13 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.13</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.13</guid>
-            <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.13 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.13 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.13#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update danysk/build-check-deploy-gradle-action action to v4.0.47 (<a href="https://github.com/jakta-bdi/jakta/issues/943" target="_blank" rel="noopener noreferrer" class="">#943</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/dabbe8618d76b882631c9eb08e19e28d81d7df3d" target="_blank" rel="noopener noreferrer" class="">dabbe86</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
+            <title><![CDATA[New Publication: Supporting Autonomic Computing via BDI Tooling]]></title>
+            <link>https://jakta-bdi.github.io/blog/paper-dblp-conf-acsos-baiardi24</link>
+            <guid>https://jakta-bdi.github.io/blog/paper-dblp-conf-acsos-baiardi24</guid>
+            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new paper related to JaKtA has been published at IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2024 - Companion, Aarhus, Denmark, September 16-20, 2024 (2024).]]></description>
+            <content:encoded><![CDATA[<p>A new paper related to JaKtA has been published at IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2024 - Companion, Aarhus, Denmark, September 16-20, 2024 (2024).</p>
+<p><strong>Authors</strong>: Martina Baiardi
+<strong>Venue</strong>: IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2024 - Companion, Aarhus, Denmark, September 16-20, 2024 (2024)
+<strong>Link</strong>: <a href="https://doi.org/10.1109/ACSOS-C63493.2024.00047" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1109/ACSOS-C63493.2024.00047</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="abstract">Abstract<a href="https://jakta-bdi.github.io/blog/paper-dblp-conf-acsos-baiardi24#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract" translate="no">​</a></h3>
+<p>In this abstract, we briefly discuss the relationship between Agent-Oriented software engineering, with special attention to the Belief-Desire-Intention paradigm, and the world of autonomic computing. Although these two worlds seem on paper to be complementary, in the sense that BDI sounds like a highly effective paradigm to implement autonomic systems, in practice, they are not widespread as technological choices in the community. We argue that the reason is mostly related to the current state of the tooling rather than the paradigm, and we propose a novel approach to build tools for BDI agent-oriented programming that could ease adoption in the autonomic and self-organising systems community.</p>]]></content:encoded>
+            <category>Papers</category>
         </item>
         <item>
-            <title><![CDATA[JaKtA 1.1.12 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.12</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.12</guid>
-            <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.12 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.12 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.12#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update tuprolog to v2.0.5 (<a href="https://github.com/jakta-bdi/jakta/issues/897" target="_blank" rel="noopener noreferrer" class="">#897</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/1bcf1f34108e646b27a160480b69305f7a7e6573" target="_blank" rel="noopener noreferrer" class="">1bcf1f3</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
+            <title><![CDATA[New Publication: Multi-Paradigm Integration for the BDI Resurgence]]></title>
+            <link>https://jakta-bdi.github.io/blog/paper-dblp-conf-acsos-pianinibbc24</link>
+            <guid>https://jakta-bdi.github.io/blog/paper-dblp-conf-acsos-pianinibbc24</guid>
+            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new paper related to JaKtA has been published at IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2024 - Companion, Aarhus, Denmark, September 16-20, 2024 (2024).]]></description>
+            <content:encoded><![CDATA[<p>A new paper related to JaKtA has been published at IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2024 - Companion, Aarhus, Denmark, September 16-20, 2024 (2024).</p>
+<p><strong>Authors</strong>: Danilo Pianini, Martina Baiardi, Samuele Burattini, Giovanni Ciatto
+<strong>Venue</strong>: IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2024 - Companion, Aarhus, Denmark, September 16-20, 2024 (2024)
+<strong>Link</strong>: <a href="https://doi.org/10.1109/ACSOS-C63493.2024.00025" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1109/ACSOS-C63493.2024.00025</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="abstract">Abstract<a href="https://jakta-bdi.github.io/blog/paper-dblp-conf-acsos-pianinibbc24#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract" translate="no">​</a></h3>
+<p>At the beginning of the millennium, scenarios typical of autonomic and self-organizing systems seemed to be better tackled with techniques designed for multi-agent systems, among them, Belief-Desire-Intention cognitive model was considered particularly promising. As the years went by, however, interest decreased in the community of self-* systems for the Belief-Desire-Intention (BDI) approach despite new proposals still sharing a strong resemblance with the defining features of BDI agents. In this position paper, we investigate the reasons behind this trend, suggesting that, rather than being a sign of the inadequacy of Belief-Desire-Intention, it might be a sign of the inadequacy of tools and frameworks available to support them.</p>]]></content:encoded>
+            <category>Papers</category>
         </item>
         <item>
-            <title><![CDATA[JaKtA 1.1.11 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.11</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.11</guid>
-            <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.11 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.11 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.11#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update dependency @iconify/react to v6 (<a href="https://github.com/jakta-bdi/jakta/issues/924" target="_blank" rel="noopener noreferrer" class="">#924</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/f919d25598e358e11b917d029354d0261dbc0c3a" target="_blank" rel="noopener noreferrer" class="">f919d25</a>)</li>
-<li class=""><strong>deps:</strong> update dependency typescript to v6 (<a href="https://github.com/jakta-bdi/jakta/issues/925" target="_blank" rel="noopener noreferrer" class="">#925</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/f96030ea7b8b7add63a02006d67dd6e7ab0619bb" target="_blank" rel="noopener noreferrer" class="">f96030e</a>)</li>
-<li class=""><strong>deps:</strong> update dependency typescript to v7 (<a href="https://github.com/jakta-bdi/jakta/issues/926" target="_blank" rel="noopener noreferrer" class="">#926</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/c780372fda464e8fad443e1388dfb0e8ece4453c" target="_blank" rel="noopener noreferrer" class="">c780372</a>)</li>
-<li class=""><strong>deps:</strong> update tuprolog to v2 (<a href="https://github.com/jakta-bdi/jakta/issues/940" target="_blank" rel="noopener noreferrer" class="">#940</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/dabdfa38464bcae7f0c142342293c9f3f01854f2" target="_blank" rel="noopener noreferrer" class="">dabdfa3</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
+            <title><![CDATA[New Publication: Concurrency Model of BDI Programming Frameworks: Why Should We Control It?]]></title>
+            <link>https://jakta-bdi.github.io/blog/paper-dblp-conf-atal-baiardibcpor24</link>
+            <guid>https://jakta-bdi.github.io/blog/paper-dblp-conf-atal-baiardibcpor24</guid>
+            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new paper related to JaKtA has been published at Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2024, Auckland, New Zealand, May 6-10, 2024 (2024).]]></description>
+            <content:encoded><![CDATA[<p>A new paper related to JaKtA has been published at Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2024, Auckland, New Zealand, May 6-10, 2024 (2024).</p>
+<p><strong>Authors</strong>: Martina Baiardi, Samuele Burattini, Giovanni Ciatto, Danilo Pianini, Andrea Omicini, Alessandro Ricci
+<strong>Venue</strong>: Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2024, Auckland, New Zealand, May 6-10, 2024 (2024)
+<strong>Link</strong>: <a href="https://doi.org/10.5555/3635637.3663089" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.5555/3635637.3663089</a></p>]]></content:encoded>
+            <category>Papers</category>
         </item>
         <item>
-            <title><![CDATA[JaKtA 1.1.10 released]]></title>
-            <link>https://jakta-bdi.github.io/blog/release-1.1.10</link>
-            <guid>https://jakta-bdi.github.io/blog/release-1.1.10</guid>
-            <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[JaKtA 1.1.10 is out.]]></description>
-            <content:encoded><![CDATA[<p>JaKtA 1.1.10 is out.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://jakta-bdi.github.io/blog/release-1.1.10#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update danysk/build-check-deploy-gradle-action action to v4.0.46 (<a href="https://github.com/jakta-bdi/jakta/issues/941" target="_blank" rel="noopener noreferrer" class="">#941</a>) (<a href="https://github.com/jakta-bdi/jakta/commit/7005f697afa02eab4834aa943dc6239bae1e8002" target="_blank" rel="noopener noreferrer" class="">7005f69</a>)</li>
-</ul>]]></content:encoded>
-            <category>JaKtA</category>
-            <category>Release</category>
+            <title><![CDATA[New Publication: Validation of BDI MASs via Simulation]]></title>
+            <link>https://jakta-bdi.github.io/blog/paper-dblp-conf-dsrt-baiardi24</link>
+            <guid>https://jakta-bdi.github.io/blog/paper-dblp-conf-dsrt-baiardi24</guid>
+            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new paper related to JaKtA has been published at 28th International Symposium on Distributed Simulation and Real Time Applications, DS-RT 2024, Urbino, Italy, October 7-9, 2024 (2024).]]></description>
+            <content:encoded><![CDATA[<p>A new paper related to JaKtA has been published at 28th International Symposium on Distributed Simulation and Real Time Applications, DS-RT 2024, Urbino, Italy, October 7-9, 2024 (2024).</p>
+<p><strong>Authors</strong>: Martina Baiardi
+<strong>Venue</strong>: 28th International Symposium on Distributed Simulation and Real Time Applications, DS-RT 2024, Urbino, Italy, October 7-9, 2024 (2024)
+<strong>Link</strong>: <a href="https://doi.org/10.1109/DS-RT62209.2024.00029" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1109/DS-RT62209.2024.00029</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="abstract">Abstract<a href="https://jakta-bdi.github.io/blog/paper-dblp-conf-dsrt-baiardi24#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract" translate="no">​</a></h3>
+<p>Several development methodologies (and abstractions) are available to simplify development of real-time and autonomous software systems. A widely adopted approach is MAS engineering for which several abstractions were proposed over the years; one example is the BDI programming model for cognitive agents, well-recognized to manage the agents’ behaviour and interaction. For these systems, unit testing is not enough to appreciate the emerging behaviour obtained from a configuration, therefore, simulation could represent a step forward to guarantee the correctness of the design. However, the literature shows two diverging directions: the first one focuses on the simulation, leaving agents abstractions simpler than the complete BDI notation, while the second mostly focuses on full-fledged BDI frameworks. What is currently missing is an integration between simulation, as a foundational development validation tool, and BDI systems, allowing engineers define a MAS and then, using the same configuration, simulate it, or vice versa.</p>]]></content:encoded>
+            <category>Papers</category>
+        </item>
+        <item>
+            <title><![CDATA[New Publication: On the External Concurrency of Current BDI Frameworks for MAS]]></title>
+            <link>https://jakta-bdi.github.io/blog/paper-dblp-conf-emas-baiardibcpro24</link>
+            <guid>https://jakta-bdi.github.io/blog/paper-dblp-conf-emas-baiardibcpro24</guid>
+            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new paper related to JaKtA has been published at Engineering Multi-Agent Systems - 12th International Workshop, EMAS 2024, Auckland, New Zealand, May 6-7, 2024, Revised Selected Papers (2024).]]></description>
+            <content:encoded><![CDATA[<p>A new paper related to JaKtA has been published at Engineering Multi-Agent Systems - 12th International Workshop, EMAS 2024, Auckland, New Zealand, May 6-7, 2024, Revised Selected Papers (2024).</p>
+<p><strong>Authors</strong>: Martina Baiardi, Samuele Burattini, Giovanni Ciatto, Danilo Pianini, Alessandro Ricci, Andrea Omicini
+<strong>Venue</strong>: Engineering Multi-Agent Systems - 12th International Workshop, EMAS 2024, Auckland, New Zealand, May 6-7, 2024, Revised Selected Papers (2024)
+<strong>Link</strong>: <a href="https://doi.org/10.1007/978-3-031-71152-7_3" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1007/978-3-031-71152-7_3</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="abstract">Abstract<a href="https://jakta-bdi.github.io/blog/paper-dblp-conf-emas-baiardibcpro24#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract" translate="no">​</a></h3>
+<p>The execution of Belief-Desire-Intention (BDI) agents in a Multi-Agent System (MAS) can be practically implemented on top of low-level concurrency mechanisms that impact on efficiency, determinism, and reproducibility. We argue that developers should specify the MAS behaviour independently of the execution model, and choose or configure the concurrency model later on, according to the specific needs of their target domain, leaving the MAS specification unaffected. We identify patterns for mapping the agent execution over the underlying concurrency abstractions, and investigate which concurrency models are supported by some of the most commonly used BDI platforms. Although most frameworks support multiple concurrency models, we find that they mostly hide them under the hood, making them opaque to the developer, and actually limiting the possibility of fine-tuning the MAS.</p>]]></content:encoded>
+            <category>Papers</category>
+        </item>
+        <item>
+            <title><![CDATA[New Publication: Blending BDI Agents with Object-Oriented and Functional Programming with JaKtA]]></title>
+            <link>https://jakta-bdi.github.io/blog/paper-dblp-journals-sncs-baiardibcp24</link>
+            <guid>https://jakta-bdi.github.io/blog/paper-dblp-journals-sncs-baiardibcp24</guid>
+            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new paper related to JaKtA has been published at SN Comput. Sci. (2024).]]></description>
+            <content:encoded><![CDATA[<p>A new paper related to JaKtA has been published at SN Comput. Sci. (2024).</p>
+<p><strong>Authors</strong>: Martina Baiardi, Samuele Burattini, Giovanni Ciatto, Danilo Pianini
+<strong>Venue</strong>: SN Comput. Sci. (2024)
+<strong>Link</strong>: <a href="https://doi.org/10.1007/S42979-024-03244-Y" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1007/S42979-024-03244-Y</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="abstract">Abstract<a href="https://jakta-bdi.github.io/blog/paper-dblp-journals-sncs-baiardibcp24#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract" translate="no">​</a></h3>
+<p>The popularity of multi-paradigm languages is on the rise, enabling developers to select the most appropriate paradigm for each task. While object-oriented and functional programming are commonly combined, other paradigms can also be hybridized. This paper introduces JaKtA, an internal Domain-Specific Language designed to support the definition of Belief-Desire-Intention agents in Kotlin. Our work represents an initial exploration into blending Agent-Oriented Programming with other prevalent paradigms, emphasizing the potential benefits of using internal Domain-Specific Languages. We demonstrate, through JaKtA, how this approach facilitates the creation of compact and expressive Belief-Desire-Intention agents that seamlessly integrate with the host language, its libraries, and tooling.</p>]]></content:encoded>
+            <category>Papers</category>
+        </item>
+        <item>
+            <title><![CDATA[New Publication: A Step Forward to Widespread BDI AOP: JaKtA]]></title>
+            <link>https://jakta-bdi.github.io/blog/paper-dblp-conf-eumas-baiardi23</link>
+            <guid>https://jakta-bdi.github.io/blog/paper-dblp-conf-eumas-baiardi23</guid>
+            <pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new paper related to JaKtA has been published at Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023).]]></description>
+            <content:encoded><![CDATA[<p>A new paper related to JaKtA has been published at Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023).</p>
+<p><strong>Authors</strong>: Martina Baiardi
+<strong>Venue</strong>: Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023)
+<strong>Link</strong>: <a href="https://doi.org/10.1007/978-3-031-43264-4_31" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1007/978-3-031-43264-4_31</a></p>]]></content:encoded>
+            <category>Papers</category>
+        </item>
+        <item>
+            <title><![CDATA[New Publication: JaKtA: BDI Agent-Oriented Programming in Pure Kotlin]]></title>
+            <link>https://jakta-bdi.github.io/blog/paper-dblp-conf-eumas-baiardibcp23</link>
+            <guid>https://jakta-bdi.github.io/blog/paper-dblp-conf-eumas-baiardibcp23</guid>
+            <pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new paper related to JaKtA has been published at Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023).]]></description>
+            <content:encoded><![CDATA[<p>A new paper related to JaKtA has been published at Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023).</p>
+<p><strong>Authors</strong>: Martina Baiardi, Samuele Burattini, Giovanni Ciatto, Danilo Pianini
+<strong>Venue</strong>: Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings (2023)
+<strong>Link</strong>: <a href="https://doi.org/10.1007/978-3-031-43264-4_4" target="_blank" rel="noopener noreferrer" class="">https://doi.org/10.1007/978-3-031-43264-4_4</a></p>]]></content:encoded>
+            <category>Papers</category>
         </item>
     </channel>
 </rss>
