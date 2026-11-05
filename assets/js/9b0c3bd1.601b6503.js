@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjakta=self.webpackChunkjakta||[]).push([[491],{42466:a=>{a.exports=JSON.parse('{"tag":{"label":"jakta","permalink":"/blog/tags/jakta","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/jakta","page":1,"postsPerPage":12,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
