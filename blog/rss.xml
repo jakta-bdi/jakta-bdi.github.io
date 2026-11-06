@@ -4,10 +4,55 @@
         <title>JaKtA Blog</title>
         <link>https://jakta-bdi.github.io/blog</link>
         <description>JaKtA Blog</description>
-        <lastBuildDate>Thu, 05 Nov 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Nov 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The mountain behind the name]]></title>
+            <link>https://jakta-bdi.github.io/blog/jakta-mountain</link>
+            <guid>https://jakta-bdi.github.io/blog/jakta-mountain</guid>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[JaKtA started as an acronym, Jason-like Kotlin Agents. Only later did we find out that Jakta is also a real]]></description>
+            <content:encoded><![CDATA[<p>JaKtA started as an acronym, <strong>Jason-like Kotlin Agents</strong>. Only later did we find out that Jakta is also a real
+place: a mountain in Norway. Today that mountain is in the background of our home page and inside our logo.
+Here is how it got there.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="from-an-acronym-to-a-place">From an acronym to a place<a href="https://jakta-bdi.github.io/blog/jakta-mountain#from-an-acronym-to-a-place" class="hash-link" aria-label="Direct link to From an acronym to a place" title="Direct link to From an acronym to a place" translate="no">​</a></h2>
+<p>The name comes from where the project started: a Kotlin take on <a href="https://jason-lang.github.io/" target="_blank" rel="noopener noreferrer" class="">Jason</a>, the
+AgentSpeak interpreter, hence Jason-like Kotlin Agents. We told that story, and how JaKtA 1.x moved away from
+Jason, in <a class="" href="https://jakta-bdi.github.io/blog/jakta-and-jason">Jason-like Kotlin Agents: where JaKtA comes from</a>.</p>
+<p>Then someone searched for the name and found a peak in the Sunnmøre Alps, in the municipality of Ørsta, Norway:
+<strong>Jakta</strong>, 1,588 metres high, across the Hjørundfjord from Skårasalen and about 5 kilometres south of Slogen.</p>
+<figure style="margin:1.5rem 0"><img src="https://jakta-bdi.github.io/img/jakta.jpg" alt="Jakta, a sharp snowy peak above a dark ridge, seen from Slogen" style="border-radius:12px"><figcaption style="font-size:0.85rem;opacity:0.75;margin-top:0.5rem"><p>Jakta, seen from Slogen. Photo by <a href="https://commons.wikimedia.org/wiki/User:Berland">Berland</a>,
+via <a href="https://commons.wikimedia.org/wiki/File:JaktaFromSlogen.jpg">Wikimedia Commons</a>,
+licensed under <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>.</p></figcaption></figure>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="islands-and-then-a-mountain">Islands, and then a mountain<a href="https://jakta-bdi.github.io/blog/jakta-mountain#islands-and-then-a-mountain" class="hash-link" aria-label="Direct link to Islands, and then a mountain" title="Direct link to Islands, and then a mountain" translate="no">​</a></h2>
+<p>It felt like the right kind of coincidence. The languages JaKtA is built on are both named after islands:
+Java took its name from coffee from the island of Java, in Indonesia, and Kotlin was named after Kotlin Island,
+in the Gulf of Finland near Saint Petersburg, as a nod to Java. A framework born on those two islands could
+hardly ask for better than a mountain of its own.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="climbing-the-mountain-of-agent-oriented-programming">Climbing the mountain of agent-oriented programming<a href="https://jakta-bdi.github.io/blog/jakta-mountain#climbing-the-mountain-of-agent-oriented-programming" class="hash-link" aria-label="Direct link to Climbing the mountain of agent-oriented programming" title="Direct link to Climbing the mountain of agent-oriented programming" translate="no">​</a></h2>
+<p>We also like what a mountain stands for. Agent-oriented programming has a reputation for a steep learning curve:
+a new paradigm, often a new language, and new tools to learn before writing the first agent. JaKtA's goal is to
+make that climb easier. Agents are plain Kotlin code, written with the language, IDE, build tool and libraries you
+already know, so you can start from familiar ground and go up one step at a time.</p>
+<p>That is why the peak is in our logo, inside the letters, and why it is the backdrop of the
+<a class="" href="https://jakta-bdi.github.io/">home page</a>.</p>
+<p style="text-align:center"><img src="https://jakta-bdi.github.io/img/jakta-logo.png" alt="The JaKtA logo, with the peak of Jakta inside the letters" width="160"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="where-it-is">Where it is<a href="https://jakta-bdi.github.io/blog/jakta-mountain#where-it-is" class="hash-link" aria-label="Direct link to Where it is" title="Direct link to Where it is" translate="no">​</a></h2>
+<p>If you want to visit, or just see where JaKtA's mountain stands, here it is on the map:</p>
+<iframe title="Jakta on Google Maps" src="https://maps.google.com/maps?q=62.1711,6.6167&amp;t=p&amp;z=11&amp;output=embed" style="width:100%;aspect-ratio:16 / 10;border:0;border-radius:12px" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen=""></iframe>
+<p>Our dream is to climb Jakta one day, the real one this time, and, why not, to hold the
+first JaKtA Conf at its feet: talks in the morning, the summit in the afternoon, BDI agents planning the descent.
+We will let you know when registrations open (don't hold your breath).</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="photo-credit">Photo credit<a href="https://jakta-bdi.github.io/blog/jakta-mountain#photo-credit" class="hash-link" aria-label="Direct link to Photo credit" title="Direct link to Photo credit" translate="no">​</a></h2>
+<p>There are very few photos of Jakta around, and the one on our home page and in this post is one of them:
+<a href="https://commons.wikimedia.org/wiki/File:JaktaFromSlogen.jpg" target="_blank" rel="noopener noreferrer" class="">Jakta From Slogen</a> by
+<a href="https://commons.wikimedia.org/wiki/User:Berland" target="_blank" rel="noopener noreferrer" class="">Berland</a>, taken from the nearby Slogen and shared
+on Wikimedia Commons under the <a href="https://creativecommons.org/licenses/by-sa/2.5" target="_blank" rel="noopener noreferrer" class="">CC BY-SA 2.5</a> license. Thank you,
+Berland, for climbing up there and sharing it!</p>]]></content:encoded>
+            <category>Community</category>
+        </item>
         <item>
             <title><![CDATA[Join the JaKtA community on GitHub]]></title>
             <link>https://jakta-bdi.github.io/blog/community</link>
