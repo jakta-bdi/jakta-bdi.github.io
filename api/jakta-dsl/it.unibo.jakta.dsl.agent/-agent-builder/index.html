@@ -1,0 +1,325 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>AgentBuilder</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js", "js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+      if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+          document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+      } else {
+        const savedDarkMode = JSON.parse(storage)
+        if (savedDarkMode === true) {
+          document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+      }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../ui-kit/ui-kit.min.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/safe-local-storage_blocking.js"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../ui-kit/ui-kit.min.js" defer></script></head>
+<body>
+<div class="root">
+    <header class="navigation theme-dark" id="navigation-wrapper" role="banner">
+<a class="library-name--link" href="../../../index.html" tabindex="1">
+                    jakta
+            </a>        <button class="navigation-controls--btn navigation-controls--btn_toc ui-kit_mobile-only" id="toc-toggle" type="button">Toggle table of contents
+        </button>
+        <div class="navigation-controls--break ui-kit_mobile-only"></div>
+        <div class="library-version" id="library-version">1.1.30-dev0j+c6cc3859
+        </div>
+        <div class="navigation-controls">
+        <ul class="filter-section filter-section_loading" id="filter-section" aria-label="Target filter">
+                <button class="platform-tag platform-selector common-like" data-active="" aria-pressed="true" data-filter=":jakta-dsl/commonMain">common</button>
+            <div class="dropdown filter-section--dropdown" data-role="dropdown" id="filter-section-dropdown">
+                <button class="button button_dropdown filter-section--dropdown-toggle" role="combobox" data-role="dropdown-toggle" aria-controls="platform-tags-listbox" aria-haspopup="listbox" aria-expanded="false" aria-label="Toggle source sets"></button>
+                <ul role="listbox" id="platform-tags-listbox" class="dropdown--list" data-role="dropdown-listbox" aria-label="Target filter">
+                    <div class="dropdown--header"><span>Target filter</span>
+                        <button class="button" data-role="dropdown-toggle" aria-label="Close target filter">
+                            <i class="ui-kit-icon ui-kit-icon_cross"></i>
+                        </button>
+                    </div>
+                        <li role="option" class="dropdown--option platform-selector-option common-like" tabindex="0">
+                            <label class="checkbox">
+                                <input type="checkbox" class="checkbox--input" id=":jakta-dsl/commonMain" data-filter=":jakta-dsl/commonMain">
+                                <span class="checkbox--icon"></span>
+                                common
+                            </label>
+                        </li>
+                </ul>
+                <div class="dropdown--overlay"></div>
+            </div>
+        </ul>
+            <button class="navigation-controls--btn navigation-controls--btn_theme" id="theme-toggle-button" type="button">Switch theme
+            </button>
+            <div class="navigation-controls--btn navigation-controls--btn_search" id="searchBar" role="button">Search in
+                API
+            </div>
+        </div>
+    </header>
+    <div id="container">
+        <nav id="leftColumn" class="sidebar" data-item-type="SECTION" data-item-config="{&quot;defaultSize&quot;: 280, &quot;minSize&quot;: 200, &quot;maxSize&quot;: 400}">
+            <a class="toc--skip-link" href="#main">Skip to content</a>
+            <div class="dropdown theme-dark_mobile" data-role="dropdown" id="toc-dropdown">
+                <ul role="listbox" id="toc-listbox" class="dropdown--list dropdown--list_toc-list" data-role="dropdown-listbox" aria-label="Table of contents">
+                    <div class="dropdown--header">
+                            <span>
+                                    jakta
+                            </span>
+                        <button class="button" data-role="dropdown-toggle" aria-label="Close table of contents">
+                            <i class="ui-kit-icon ui-kit-icon_cross"></i>
+                        </button>
+                    </div>
+                    <div class="sidebar--inner" id="sideMenu"></div>
+                </ul>
+                <div class="dropdown--overlay"></div>
+            </div>
+        </nav>
+        <div id="resizer" class="resizer" data-item-type="BAR"></div>
+        <div id="main" data-item-type="SECTION" role="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="jakta-dsl::it.unibo.jakta.dsl.agent/AgentBuilder///PointingToDeclaration//1682978858">
+  <div class="breadcrumbs"><a href="../../index.html">jakta-dsl</a><span class="delimiter">/</span><a href="../index.html">it.unibo.jakta.dsl.agent</a><span class="delimiter">/</span><span class="current">AgentBuilder</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Agent</span><wbr><span><span>Builder</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">AgentBuilder</a><span class="token operator">&lt;</span><a href="index.html">Belief</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-any/index.html">Any</a><span class="token punctuation">, </span><a href="index.html">Goal</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-any/index.html">Any</a><span class="token punctuation">, </span><a href="index.html">Body</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt;</span></div><p class="paragraph">Builder interface for defining an agent with beliefs, goals, and plans.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="PROPERTY">
+        <h2 class="tableheader">Properties</h2>
+        <div class="table"><a data-name="1228996094%2FProperties%2F1682978858" anchor-label="node" id="1228996094%2FProperties%2F1682978858" data-filterable-set=":jakta-dsl/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-dsl/commonMain" data-filterable-set=":jakta-dsl/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="node.html"><span><span>node</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1228996094%2FProperties%2F1682978858"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="node.html">node</a><span class="token operator">: </span><a href="../../../jakta-api/it.unibo.jakta.node/-node/index.html">Node</a><span class="token operator">&lt;</span><a href="index.html">Body</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">The node this agent is hosted on. This is used to send messages and perceptions to the agent.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="tableheader">Functions</h2>
+        <div class="table"><a data-name="1280450597%2FFunctions%2F1682978858" anchor-label="addBelief" id="1280450597%2FFunctions%2F1682978858" data-filterable-set=":jakta-dsl/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-dsl/commonMain" data-filterable-set=":jakta-dsl/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="add-belief.html"><span>add</span><wbr><span><span>Belief</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1280450597%2FFunctions%2F1682978858"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="add-belief.html"><span class="token function">addBelief</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">belief<span class="token operator">: </span><a href="index.html">Belief</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Adds a belief to the agent's initial beliefs.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-873496543%2FFunctions%2F1682978858" anchor-label="addBeliefPlan" id="-873496543%2FFunctions%2F1682978858" data-filterable-set=":jakta-dsl/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-dsl/commonMain" data-filterable-set=":jakta-dsl/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="add-belief-plan.html"><span>add</span><wbr><span>Belief</span><wbr><span><span>Plan</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-873496543%2FFunctions%2F1682978858"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="add-belief-plan.html"><span class="token function">addBeliefPlan</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">plan<span class="token operator">: </span><a href="../../../jakta-api/it.unibo.jakta.plan/-plan/-belief/index.html">Plan.Belief</a><span class="token operator">&lt;</span><a href="index.html">Belief</a><span class="token punctuation">, </span><a href="index.html">Goal</a><span class="token punctuation">, </span><span class="token operator">*</span><span class="token punctuation">, </span><span class="token operator">*</span><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Adds a belief plan to the agent's plan library.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="53418355%2FFunctions%2F1682978858" anchor-label="addGoal" id="53418355%2FFunctions%2F1682978858" data-filterable-set=":jakta-dsl/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-dsl/commonMain" data-filterable-set=":jakta-dsl/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="add-goal.html"><span>add</span><wbr><span><span>Goal</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="53418355%2FFunctions%2F1682978858"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="add-goal.html"><span class="token function">addGoal</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">goal<span class="token operator">: </span><a href="index.html">Goal</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Adds a goal to the agent's initial goals.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-819386975%2FFunctions%2F1682978858" anchor-label="addGoalPlan" id="-819386975%2FFunctions%2F1682978858" data-filterable-set=":jakta-dsl/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-dsl/commonMain" data-filterable-set=":jakta-dsl/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="add-goal-plan.html"><span>add</span><wbr><span>Goal</span><wbr><span><span>Plan</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-819386975%2FFunctions%2F1682978858"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="add-goal-plan.html"><span class="token function">addGoalPlan</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">plan<span class="token operator">: </span><a href="../../../jakta-api/it.unibo.jakta.plan/-plan/-goal/index.html">Plan.Goal</a><span class="token operator">&lt;</span><a href="index.html">Belief</a><span class="token punctuation">, </span><a href="index.html">Goal</a><span class="token punctuation">, </span><span class="token operator">*</span><span class="token punctuation">, </span><span class="token operator">*</span><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Adds a goal plan to the agent's plan library.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-832789498%2FFunctions%2F1682978858" anchor-label="believes" id="-832789498%2FFunctions%2F1682978858" data-filterable-set=":jakta-dsl/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-dsl/commonMain" data-filterable-set=":jakta-dsl/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="believes.html"><span><span>believes</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-832789498%2FFunctions%2F1682978858"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="believes.html"><span class="token function">believes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">block<span class="token operator">: </span><a href="../-belief-builder/index.html">BeliefBuilder</a><span class="token operator">&lt;</span><a href="index.html">Belief</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html">Unit</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Defines the initial beliefs of the agent using a builder block.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1435628396%2FFunctions%2F1682978858" anchor-label="build" id="1435628396%2FFunctions%2F1682978858" data-filterable-set=":jakta-dsl/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-dsl/commonMain" data-filterable-set=":jakta-dsl/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="build.html"><span><span>build</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1435628396%2FFunctions%2F1682978858"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="build.html"><span class="token function">build</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../jakta-api/it.unibo.jakta.agent/-agent-specification/index.html">AgentSpecification</a><span class="token operator">&lt;</span><a href="index.html">Belief</a><span class="token punctuation">, </span><a href="index.html">Goal</a><span class="token punctuation">, </span><a href="index.html">Body</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Builds and returns the agent instance.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-515604374%2FFunctions%2F1682978858" anchor-label="embodiedAs" id="-515604374%2FFunctions%2F1682978858" data-filterable-set=":jakta-dsl/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-dsl/commonMain" data-filterable-set=":jakta-dsl/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="embodied-as.html"><span>embodied</span><wbr><span><span>As</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-515604374%2FFunctions%2F1682978858"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="embodied-as.html"><span class="token function">embodiedAs</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">bodyFactory<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../../jakta-api/it.unibo.jakta.agent/-agent-i-d/index.html">AgentID</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="index.html">Body</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Define how an agent can be embodied in the node.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-795325070%2FFunctions%2F1682978858" anchor-label="handlesMessageEvents" id="-795325070%2FFunctions%2F1682978858" data-filterable-set=":jakta-dsl/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-dsl/commonMain" data-filterable-set=":jakta-dsl/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="handles-message-events.html"><span>handles</span><wbr><span>Message</span><wbr><span><span>Events</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-795325070%2FFunctions%2F1682978858"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="handles-message-events.html"><span class="token function">handlesMessageEvents</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">handler<span class="token operator">: </span><a href="../../../jakta-api/it.unibo.jakta.agent/-agent-state/index.html">AgentState</a><span class="token operator">&lt;</span><a href="index.html">Belief</a><span class="token punctuation">, </span><a href="index.html">Goal</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><span class="token punctuation">(</span><a href="../../../jakta-api/it.unibo.jakta.event/-agent-event/-external/-message/index.html">AgentEvent.External.Message</a><span class="token operator">&lt;</span><span class="token operator">*</span><span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../../../jakta-api/it.unibo.jakta.event/-agent-update/index.html">AgentUpdate</a><span class="token operator">&lt;</span><span class="token operator">*</span><span class="token operator">&gt;</span><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Defines how and whether a <a href="../../../jakta-api/it.unibo.jakta.event/-agent-event/-external/-message/index.html">Message</a> is mapped into a <a href="../../../jakta-api/it.unibo.jakta.event/-agent-update/index.html">AgentUpdate</a>. By default, receiving messages do not generate any update.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1047480174%2FFunctions%2F1682978858" anchor-label="handlesPerceptionEvents" id="1047480174%2FFunctions%2F1682978858" data-filterable-set=":jakta-dsl/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-dsl/commonMain" data-filterable-set=":jakta-dsl/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="handles-perception-events.html"><span>handles</span><wbr><span>Perception</span><wbr><span><span>Events</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1047480174%2FFunctions%2F1682978858"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="handles-perception-events.html"><span class="token function">handlesPerceptionEvents</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">handler<span class="token operator">: </span><a href="../../../jakta-api/it.unibo.jakta.agent/-agent-state/index.html">AgentState</a><span class="token operator">&lt;</span><a href="index.html">Belief</a><span class="token punctuation">, </span><a href="index.html">Goal</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><span class="token punctuation">(</span><a href="../../../jakta-api/it.unibo.jakta.event/-agent-event/-external/-perception/index.html">AgentEvent.External.Perception</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../../../jakta-api/it.unibo.jakta.event/-agent-update/index.html">AgentUpdate</a><span class="token operator">&lt;</span><span class="token operator">*</span><span class="token operator">&gt;</span><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Defines how and whether a <a href="../../../jakta-api/it.unibo.jakta.event/-agent-event/-external/-perception/index.html">Perception</a> is mapped into a <a href="../../../jakta-api/it.unibo.jakta.event/-agent-update/index.html">AgentUpdate</a>. By default, perceptions do not generate any update.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="544375959%2FFunctions%2F1682978858" anchor-label="hasInitialGoals" id="544375959%2FFunctions%2F1682978858" data-filterable-set=":jakta-dsl/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-dsl/commonMain" data-filterable-set=":jakta-dsl/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="has-initial-goals.html"><span>has</span><wbr><span>Initial</span><wbr><span><span>Goals</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="544375959%2FFunctions%2F1682978858"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="has-initial-goals.html"><span class="token function">hasInitialGoals</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">block<span class="token operator">: </span><a href="../-goal-builder/index.html">GoalBuilder</a><span class="token operator">&lt;</span><a href="index.html">Goal</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html">Unit</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Defines the initial goals of the agent using a builder block.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-931561085%2FFunctions%2F1682978858" anchor-label="hasPlanLibrary" id="-931561085%2FFunctions%2F1682978858" data-filterable-set=":jakta-dsl/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-dsl/commonMain" data-filterable-set=":jakta-dsl/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="has-plan-library.html"><span>has</span><wbr><span>Plan</span><wbr><span><span>Library</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-931561085%2FFunctions%2F1682978858"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="has-plan-library.html"><span class="token function">hasPlanLibrary</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">block<span class="token operator">: </span><a href="../../it.unibo.jakta.dsl.plan/-plan-library-builder/index.html">PlanLibraryBuilder</a><span class="token operator">&lt;</span><a href="index.html">Belief</a><span class="token punctuation">, </span><a href="index.html">Goal</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html">Unit</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Defines the plans of the agent using a plan library builder block.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1361439729%2FFunctions%2F1682978858" anchor-label="withPredefinedPlans" id="1361439729%2FFunctions%2F1682978858" data-filterable-set=":jakta-dsl/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-dsl/commonMain" data-filterable-set=":jakta-dsl/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="with-predefined-plans.html"><span>with</span><wbr><span>Predefined</span><wbr><span><span>Plans</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1361439729%2FFunctions%2F1682978858"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-dsl/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="with-predefined-plans.html"><span class="token function">withPredefinedPlans</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>plans<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../../jakta-api/it.unibo.jakta.node/-node/index.html">Node</a><span class="token operator">&lt;</span><a href="index.html">Body</a><span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../../jakta-api/it.unibo.jakta.plan/-plan/index.html">Plan</a><span class="token operator">&lt;</span><a href="index.html">Belief</a><span class="token punctuation">, </span><a href="index.html">Goal</a><span class="token punctuation">, </span><span class="token operator">*</span><span class="token punctuation">, </span><span class="token operator">*</span><span class="token punctuation">, </span><span class="token operator">*</span><span class="token operator">&gt;</span><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Defines the plans of the agent using a list of pre-defined plans.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="footer">
+        <div class="footer--container">
+            <a href="#content" id="go-to-top-link" class="footer--button footer--button_go-to-top"></a>
+            <div class="footer--content">
+                <div>
+                    <span>Generated by </span>
+                    <a class="footer--link footer--link_external" href="https://github.com/Kotlin/dokka">
+                        Dokka
+                    </a>
+                    <div>© 2026 Copyright</div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

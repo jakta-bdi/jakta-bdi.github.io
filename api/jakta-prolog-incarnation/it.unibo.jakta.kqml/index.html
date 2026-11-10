@@ -1,0 +1,399 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>it.unibo.jakta.kqml</title>
+<link href="../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../";</script>
+    <script>document.documentElement.classList.replace("no-js", "js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+      if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+          document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+      } else {
+        const savedDarkMode = JSON.parse(storage)
+        if (savedDarkMode === true) {
+          document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+      }
+    </script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../ui-kit/ui-kit.min.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/safe-local-storage_blocking.js"></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../ui-kit/ui-kit.min.js" defer></script></head>
+<body>
+<div class="root">
+    <header class="navigation theme-dark" id="navigation-wrapper" role="banner">
+<a class="library-name--link" href="../../index.html" tabindex="1">
+                    jakta
+            </a>        <button class="navigation-controls--btn navigation-controls--btn_toc ui-kit_mobile-only" id="toc-toggle" type="button">Toggle table of contents
+        </button>
+        <div class="navigation-controls--break ui-kit_mobile-only"></div>
+        <div class="library-version" id="library-version">1.1.30-dev0j+c6cc3859
+        </div>
+        <div class="navigation-controls">
+        <ul class="filter-section filter-section_loading" id="filter-section" aria-label="Target filter">
+                <button class="platform-tag platform-selector common-like" data-active="" aria-pressed="true" data-filter=":jakta-prolog-incarnation/commonMain">common</button>
+            <div class="dropdown filter-section--dropdown" data-role="dropdown" id="filter-section-dropdown">
+                <button class="button button_dropdown filter-section--dropdown-toggle" role="combobox" data-role="dropdown-toggle" aria-controls="platform-tags-listbox" aria-haspopup="listbox" aria-expanded="false" aria-label="Toggle source sets"></button>
+                <ul role="listbox" id="platform-tags-listbox" class="dropdown--list" data-role="dropdown-listbox" aria-label="Target filter">
+                    <div class="dropdown--header"><span>Target filter</span>
+                        <button class="button" data-role="dropdown-toggle" aria-label="Close target filter">
+                            <i class="ui-kit-icon ui-kit-icon_cross"></i>
+                        </button>
+                    </div>
+                        <li role="option" class="dropdown--option platform-selector-option common-like" tabindex="0">
+                            <label class="checkbox">
+                                <input type="checkbox" class="checkbox--input" id=":jakta-prolog-incarnation/commonMain" data-filter=":jakta-prolog-incarnation/commonMain">
+                                <span class="checkbox--icon"></span>
+                                common
+                            </label>
+                        </li>
+                </ul>
+                <div class="dropdown--overlay"></div>
+            </div>
+        </ul>
+            <button class="navigation-controls--btn navigation-controls--btn_theme" id="theme-toggle-button" type="button">Switch theme
+            </button>
+            <div class="navigation-controls--btn navigation-controls--btn_search" id="searchBar" role="button">Search in
+                API
+            </div>
+        </div>
+    </header>
+    <div id="container">
+        <nav id="leftColumn" class="sidebar" data-item-type="SECTION" data-item-config="{&quot;defaultSize&quot;: 280, &quot;minSize&quot;: 200, &quot;maxSize&quot;: 400}">
+            <a class="toc--skip-link" href="#main">Skip to content</a>
+            <div class="dropdown theme-dark_mobile" data-role="dropdown" id="toc-dropdown">
+                <ul role="listbox" id="toc-listbox" class="dropdown--list dropdown--list_toc-list" data-role="dropdown-listbox" aria-label="Table of contents">
+                    <div class="dropdown--header">
+                            <span>
+                                    jakta
+                            </span>
+                        <button class="button" data-role="dropdown-toggle" aria-label="Close table of contents">
+                            <i class="ui-kit-icon ui-kit-icon_cross"></i>
+                        </button>
+                    </div>
+                    <div class="sidebar--inner" id="sideMenu"></div>
+                </ul>
+                <div class="dropdown--overlay"></div>
+            </div>
+        </nav>
+        <div id="resizer" class="resizer" data-item-type="BAR"></div>
+        <div id="main" data-item-type="SECTION" role="main">
+<div class="main-content" data-page-type="package" id="content" pageids="jakta-prolog-incarnation::it.unibo.jakta.kqml////PointingToDeclaration//-818438313">
+  <div class="breadcrumbs"><a href="../index.html">jakta-prolog-incarnation</a><span class="delimiter">/</span><span class="current">it.unibo.jakta.kqml</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="TYPE">Types</button><button class="section-tab" data-togglable="FUNCTION,EXTENSION_FUNCTION">Functions</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="tableheader">Types</h2>
+        <div class="table"><a data-name="-930103671%2FClasslikes%2F-818438313" anchor-label="Achieve" id="-930103671%2FClasslikes%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-achieve/index.html"><span><span>Achieve</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-930103671%2FClasslikes%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-achieve/index.html">Achieve</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>goal<span class="token operator">: </span><a href="../it.unibo.jakta.dsl.goal/-prolog-goal/index.html">PrologGoal</a></span></span><span class="token punctuation">)</span> : <a href="-k-q-m-l-payload/index.html">KQMLPayload</a></div><div class="brief "><p class="paragraph">KQML payload to delegate a goal to an agent. The <a href="-achieve/goal.html">goal</a> must be ground.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2063099872%2FClasslikes%2F-818438313" anchor-label="AskAll" id="-2063099872%2FClasslikes%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-ask-all/index.html"><span>Ask</span><wbr><span><span>All</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2063099872%2FClasslikes%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-ask-all/index.html">AskAll</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>query<span class="token operator">: </span><span data-unresolved-link="it.unibo.tuprolog.core/Struct///PointingToDeclaration/">Struct</span></span></span><span class="token punctuation">)</span> : <a href="-k-q-m-l-payload/index.html">KQMLPayload</a></div><div class="brief "><p class="paragraph">KQML payload for asking an agent to reply with all the beliefs that satisfy the given query.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="371645179%2FClasslikes%2F-818438313" anchor-label="AskOne" id="371645179%2FClasslikes%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-ask-one/index.html"><span>Ask</span><wbr><span><span>One</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="371645179%2FClasslikes%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-ask-one/index.html">AskOne</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>query<span class="token operator">: </span><span data-unresolved-link="it.unibo.tuprolog.core/Struct///PointingToDeclaration/">Struct</span></span></span><span class="token punctuation">)</span> : <a href="-k-q-m-l-payload/index.html">KQMLPayload</a></div><div class="brief "><p class="paragraph">KQML payload for asking an agent to reply with the first beliefQuery that satisfies the given query.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1152993551%2FClasslikes%2F-818438313" anchor-label="KQMLPayload" id="-1152993551%2FClasslikes%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-k-q-m-l-payload/index.html"><span><span>KQMLPayload</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1152993551%2FClasslikes%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">class </span><a href="-k-q-m-l-payload/index.html">KQMLPayload</a></div><div class="brief "><p class="paragraph">Tag interface for all KQML payloads.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1757013321%2FClasslikes%2F-818438313" anchor-label="Tell" id="-1757013321%2FClasslikes%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-tell/index.html"><span><span>Tell</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1757013321%2FClasslikes%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-tell/index.html">Tell</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>beliefs<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><a href="../it.unibo.jakta.dsl.belief/-prolog-belief/index.html">PrologBelief</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>replyingTo<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.uuid/-uuid/index.html">Uuid</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span> : <a href="-k-q-m-l-payload/index.html">KQMLPayload</a></div><div class="brief "><p class="paragraph">KQML payload for telling a beliefQuery to an agent. The <a href="-tell/beliefs.html">beliefs</a> must be ground. <a href="-tell/replying-to.html">replyingTo</a> is an optional id of the message this tell message is replying to.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1142691102%2FClasslikes%2F-818438313" anchor-label="Unachieve" id="-1142691102%2FClasslikes%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-unachieve/index.html"><span><span>Unachieve</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1142691102%2FClasslikes%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-unachieve/index.html">Unachieve</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>goalQuery<span class="token operator">: </span><span data-unresolved-link="it.unibo.tuprolog.core/Struct///PointingToDeclaration/">Struct</span></span></span><span class="token punctuation">)</span> : <a href="-k-q-m-l-payload/index.html">KQMLPayload</a></div><div class="brief "><p class="paragraph">KQML payload for telling an agent to stop pursuing a (delegated) goal. The <a href="-unachieve/goal-query.html">goalQuery</a> must be a predicate.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1963717886%2FClasslikes%2F-818438313" anchor-label="Untell" id="1963717886%2FClasslikes%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-untell/index.html"><span><span>Untell</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1963717886%2FClasslikes%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-untell/index.html">Untell</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>beliefQuery<span class="token operator">: </span><span data-unresolved-link="it.unibo.tuprolog.core/Struct///PointingToDeclaration/">Struct</span></span></span><span class="token punctuation">)</span> : <a href="-k-q-m-l-payload/index.html">KQMLPayload</a></div><div class="brief "><p class="paragraph">KQML payload for untelling a beliefQuery to an agent. The <a href="-untell/belief-query.html">beliefQuery</a> must be a predicate.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="EXTENSION_FUNCTION">
+        <h2 class="tableheader">Functions</h2>
+        <div class="table"><a data-name="918710097%2FFunctions%2F-818438313" anchor-label="askAllTo" id="918710097%2FFunctions%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="ask-all-to.html"><span>ask</span><wbr><span>All</span><wbr><span><span>To</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="918710097%2FFunctions%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">context</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">skill<span class="token operator">: </span><a href="../../jakta-core/it.unibo.jakta.skills/-messaging-skill/index.html">MessagingSkill</a></span></span><span class="token punctuation">)</span><br><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="../../jakta-api/it.unibo.jakta.agent/-mutable-agent-state/index.html">MutableAgentState</a><span class="token operator">&lt;</span><a href="../it.unibo.jakta.dsl.belief/-prolog-belief/index.html">PrologBelief</a><span class="token punctuation">, </span><a href="../it.unibo.jakta.dsl.goal/-prolog-goal/index.html">PrologGoal</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="ask-all-to.html"><span class="token function">askAllTo</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">receiver<span class="token operator">: </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent-i-d/index.html">AgentID</a><span class="token punctuation">, </span></span><span class="parameter ">query<span class="token operator">: </span><span data-unresolved-link="it.unibo.tuprolog.core/Struct///PointingToDeclaration/">Struct</span><span class="token punctuation">, </span></span><span class="parameter ">timeout<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.time/-duration/index.html">Duration</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span data-unresolved-link="it.unibo.tuprolog.core/Substitution///PointingToDeclaration/">Substitution</span><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Extension function to send a message using the <a href="-ask-all/index.html">AskAll</a> performative and wait for a reply. The agent will wait for the <a href="ask-all-to.html">timeout</a> duration for a reply from the <a href="ask-all-to.html">receiver</a> that matches the id of the question. The reply should be a <a href="-tell/index.html">Tell</a> message with a <a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/-list/index.html">List</a> of beliefs that unify with the <a href="ask-all-to.html">query</a>. If a matching reply is received, the a <a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/-list/index.html">List</a> of <span data-unresolved-link="it.unibo.tuprolog.core/Substitution///PointingToDeclaration/">Substitution</span>s is returned. If no matching reply is received or the timeout is reached <code class="lang-kotlin">null</code> is returned.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-622467043%2FFunctions%2F-818438313" anchor-label="askOneTo" id="-622467043%2FFunctions%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="ask-one-to.html"><span>ask</span><wbr><span>One</span><wbr><span><span>To</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-622467043%2FFunctions%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">context</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">skill<span class="token operator">: </span><a href="../../jakta-core/it.unibo.jakta.skills/-messaging-skill/index.html">MessagingSkill</a><span class="token punctuation">, </span></span><span class="parameter ">planContext<span class="token operator">: </span><a href="../it.unibo.jakta.logic/-mutable-substitution-plan-context/index.html">MutableSubstitutionPlanContext</a></span></span><span class="token punctuation">)</span><br><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="../../jakta-api/it.unibo.jakta.agent/-mutable-agent-state/index.html">MutableAgentState</a><span class="token operator">&lt;</span><a href="../it.unibo.jakta.dsl.belief/-prolog-belief/index.html">PrologBelief</a><span class="token punctuation">, </span><a href="../it.unibo.jakta.dsl.goal/-prolog-goal/index.html">PrologGoal</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="ask-one-to.html"><span class="token function">askOneTo</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">receiver<span class="token operator">: </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent-i-d/index.html">AgentID</a><span class="token punctuation">, </span></span><span class="parameter ">query<span class="token operator">: </span><span data-unresolved-link="it.unibo.tuprolog.core/Struct///PointingToDeclaration/">Struct</span><span class="token punctuation">, </span></span><span class="parameter ">timeout<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.time/-duration/index.html">Duration</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="it.unibo.tuprolog.core/Substitution///PointingToDeclaration/">Substitution</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Extension function to send a message using the <a href="-ask-one/index.html">AskOne</a> performative and wait for a reply. the agent will wait for <a href="ask-one-to.html">timeout</a> duration for a reply from the <a href="ask-one-to.html">receiver</a> that matches the id of the question. If a matching reply is received the substitution of the payload is applied to the <a href="ask-one-to.html">planContext</a> and returned. If no matching reply is received or the timeout is reached <code class="lang-kotlin">null</code> is returned.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="754097765%2FFunctions%2F-818438313" anchor-label="broadcastAchieve" id="754097765%2FFunctions%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="broadcast-achieve.html"><span>broadcast</span><wbr><span><span>Achieve</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="754097765%2FFunctions%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">context</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">skill<span class="token operator">: </span><a href="../../jakta-core/it.unibo.jakta.skills/-messaging-skill/index.html">MessagingSkill</a></span></span><span class="token punctuation">)</span><br><span class="token keyword">fun </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent/index.html">Agent</a><span class="token punctuation">.</span><a href="broadcast-achieve.html"><span class="token function">broadcastAchieve</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">goal<span class="token operator">: </span><a href="../it.unibo.jakta.dsl.goal/-prolog-goal/index.html">PrologGoal</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Extension function to broadcast a message using the <a href="-achieve/index.html">Achieve</a> performative.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1054795576%2FFunctions%2F-818438313" anchor-label="broadcastTell" id="1054795576%2FFunctions%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="broadcast-tell.html"><span>broadcast</span><wbr><span><span>Tell</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1054795576%2FFunctions%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">context</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">skill<span class="token operator">: </span><a href="../../jakta-core/it.unibo.jakta.skills/-messaging-skill/index.html">MessagingSkill</a></span></span><span class="token punctuation">)</span><br><span class="token keyword">fun </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent/index.html">Agent</a><span class="token punctuation">.</span><a href="broadcast-tell.html"><span class="token function">broadcastTell</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>belief<span class="token operator">: </span><a href="../it.unibo.jakta.dsl.belief/-prolog-belief/index.html">PrologBelief</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Extension function to broadcast a message using the <a href="-tell/index.html">Tell</a> performative.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1455755586%2FFunctions%2F-818438313" anchor-label="broadcastUnachieve" id="-1455755586%2FFunctions%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="broadcast-unachieve.html"><span>broadcast</span><wbr><span><span>Unachieve</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1455755586%2FFunctions%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">context</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">skill<span class="token operator">: </span><a href="../../jakta-core/it.unibo.jakta.skills/-messaging-skill/index.html">MessagingSkill</a></span></span><span class="token punctuation">)</span><br><span class="token keyword">fun </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent/index.html">Agent</a><span class="token punctuation">.</span><a href="broadcast-unachieve.html"><span class="token function">broadcastUnachieve</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">query<span class="token operator">: </span><span data-unresolved-link="it.unibo.tuprolog.core/Struct///PointingToDeclaration/">Struct</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Extension function to broadcast a message using the <a href="-unachieve/index.html">Unachieve</a> performative.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2061459126%2FFunctions%2F-818438313" anchor-label="broadcastUntell" id="2061459126%2FFunctions%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="broadcast-untell.html"><span>broadcast</span><wbr><span><span>Untell</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2061459126%2FFunctions%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">context</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">skill<span class="token operator">: </span><a href="../../jakta-core/it.unibo.jakta.skills/-messaging-skill/index.html">MessagingSkill</a></span></span><span class="token punctuation">)</span><br><span class="token keyword">fun </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent/index.html">Agent</a><span class="token punctuation">.</span><a href="broadcast-untell.html"><span class="token function">broadcastUntell</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">query<span class="token operator">: </span><span data-unresolved-link="it.unibo.tuprolog.core/Struct///PointingToDeclaration/">Struct</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Extension function to use the <a href="-untell/index.html">Untell</a> performative to broadcast a message.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2110298545%2FFunctions%2F-818438313" anchor-label="delegateAchieveTo" id="2110298545%2FFunctions%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="delegate-achieve-to.html"><span>delegate</span><wbr><span>Achieve</span><wbr><span><span>To</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2110298545%2FFunctions%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">context</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">skill<span class="token operator">: </span><a href="../../jakta-core/it.unibo.jakta.skills/-messaging-skill/index.html">MessagingSkill</a></span></span><span class="token punctuation">)</span><br><span class="token keyword">fun </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent/index.html">Agent</a><span class="token punctuation">.</span><a href="delegate-achieve-to.html"><span class="token function">delegateAchieveTo</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">receiver<span class="token operator">: </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent-i-d/index.html">AgentID</a><span class="token punctuation">, </span></span><span class="parameter ">goal<span class="token operator">: </span><a href="../it.unibo.jakta.dsl.goal/-prolog-goal/index.html">PrologGoal</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Extension function to send a message using the <a href="-achieve/index.html">Achieve</a> performative.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1492111635%2FFunctions%2F-818438313" anchor-label="handleKQMLPayload" id="-1492111635%2FFunctions%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="handle-k-q-m-l-payload.html"><span>handle</span><wbr><span><span>KQMLPayload</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1492111635%2FFunctions%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent-state/index.html">AgentState</a><span class="token operator">&lt;</span><a href="../it.unibo.jakta.dsl.belief/-prolog-belief/index.html">PrologBelief</a><span class="token punctuation">, </span><a href="../it.unibo.jakta.dsl.goal/-prolog-goal/index.html">PrologGoal</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="handle-k-q-m-l-payload.html"><span class="token function">handleKQMLPayload</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">payload<span class="token operator">: </span><a href="-k-q-m-l-payload/index.html">KQMLPayload</a><span class="token punctuation">, </span></span><span class="parameter ">sender<span class="token operator">: </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent-i-d/index.html">AgentID</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../jakta-api/it.unibo.jakta.event/-agent-update/index.html">AgentUpdate</a><span class="token operator">&lt;</span><span class="token operator">*</span><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Handles a KQML payload message and returns the corresponding agent update.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1925500907%2FFunctions%2F-818438313" anchor-label="sendUnachieveTo" id="-1925500907%2FFunctions%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="send-unachieve-to.html"><span>send</span><wbr><span>Unachieve</span><wbr><span><span>To</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1925500907%2FFunctions%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">context</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">skill<span class="token operator">: </span><a href="../../jakta-core/it.unibo.jakta.skills/-messaging-skill/index.html">MessagingSkill</a></span></span><span class="token punctuation">)</span><br><span class="token keyword">fun </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent/index.html">Agent</a><span class="token punctuation">.</span><a href="send-unachieve-to.html"><span class="token function">sendUnachieveTo</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">receiver<span class="token operator">: </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent-i-d/index.html">AgentID</a><span class="token punctuation">, </span></span><span class="parameter ">query<span class="token operator">: </span><span data-unresolved-link="it.unibo.tuprolog.core/Struct///PointingToDeclaration/">Struct</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Extension function to send a message using the <a href="-unachieve/index.html">Unachieve</a> performative.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="338551655%2FFunctions%2F-818438313" anchor-label="tellTo" id="338551655%2FFunctions%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="tell-to.html"><span>tell</span><wbr><span><span>To</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="338551655%2FFunctions%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">context</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">skill<span class="token operator">: </span><a href="../../jakta-core/it.unibo.jakta.skills/-messaging-skill/index.html">MessagingSkill</a></span></span><span class="token punctuation">)</span><br><span class="token keyword">fun </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent/index.html">Agent</a><span class="token punctuation">.</span><a href="tell-to.html"><span class="token function">tellTo</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">receiver<span class="token operator">: </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent-i-d/index.html">AgentID</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">vararg </span>belief<span class="token operator">: </span><a href="../it.unibo.jakta.dsl.belief/-prolog-belief/index.html">PrologBelief</a></span></span><span class="token punctuation">)</span></div><div class="symbol monospace"><span class="token keyword">context</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">skill<span class="token operator">: </span><a href="../../jakta-core/it.unibo.jakta.skills/-messaging-skill/index.html">MessagingSkill</a></span></span><span class="token punctuation">)</span><br><span class="token keyword">fun </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent/index.html">Agent</a><span class="token punctuation">.</span><a href="tell-to.html"><span class="token function">tellTo</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">receiver<span class="token operator">: </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent-i-d/index.html">AgentID</a><span class="token punctuation">, </span></span><span class="parameter ">replyingTo<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">vararg </span>belief<span class="token operator">: </span><a href="../it.unibo.jakta.dsl.belief/-prolog-belief/index.html">PrologBelief</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Extension function to send a message using the <a href="-tell/index.html">Tell</a> performative.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-559878789%2FFunctions%2F-818438313" anchor-label="untellTo" id="-559878789%2FFunctions%2F-818438313" data-filterable-set=":jakta-prolog-incarnation/commonMain"></a>
+          <div class="table-row table-row_content" data-filterable-current=":jakta-prolog-incarnation/commonMain" data-filterable-set=":jakta-prolog-incarnation/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="untell-to.html"><span>untell</span><wbr><span><span>To</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-559878789%2FFunctions%2F-818438313"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":jakta-prolog-incarnation/commonMain"><div class="symbol monospace"><span class="token keyword">context</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">skill<span class="token operator">: </span><a href="../../jakta-core/it.unibo.jakta.skills/-messaging-skill/index.html">MessagingSkill</a></span></span><span class="token punctuation">)</span><br><span class="token keyword">fun </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent/index.html">Agent</a><span class="token punctuation">.</span><a href="untell-to.html"><span class="token function">untellTo</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">receiver<span class="token operator">: </span><a href="../../jakta-api/it.unibo.jakta.agent/-agent-i-d/index.html">AgentID</a><span class="token punctuation">, </span></span><span class="parameter ">query<span class="token operator">: </span><span data-unresolved-link="it.unibo.tuprolog.core/Struct///PointingToDeclaration/">Struct</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Extension function to send a message using <a href="-untell/index.html">Untell</a> performative.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="footer">
+        <div class="footer--container">
+            <a href="#content" id="go-to-top-link" class="footer--button footer--button_go-to-top"></a>
+            <div class="footer--content">
+                <div>
+                    <span>Generated by </span>
+                    <a class="footer--link footer--link_external" href="https://github.com/Kotlin/dokka">
+                        Dokka
+                    </a>
+                    <div>© 2026 Copyright</div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
